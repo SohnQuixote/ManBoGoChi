@@ -1,0 +1,143 @@
+{
+    "m_SelectedDeviceId": "RF8MB09KFRK",
+    "m_SelectedPackage": {
+        "deviceId": "RF8MB09KFRK",
+        "name": "com.DefaultCompany.com.unity.template.mobile2D",
+        "processId": 8726,
+        "exited": false
+    },
+    "m_SelectedPriority": 0,
+    "m_KnownPackagesForSerialization": [
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.sec.android.app.launcher",
+            "processId": 8103,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 6635,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 12243,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 13919,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 14521,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 15459,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.sec.android.app.clockpackage",
+            "processId": 16070,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 21019,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 28062,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 29326,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 5176,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 8387,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 8726,
+            "exited": false
+        }
+    ],
+    "m_Tags": {
+        "m_Entries": [
+            {
+                "m_Name": "Filter by all listed tags",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "No Filter",
+                "m_Selected": true
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Tag Control...",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "Unity",
+                "m_Selected": false
+            },
+            {
+                "m_Name": "CRASH",
+                "m_Selected": false
+            }
+        ]
+    },
+    "m_MemoryViewerState": {
+        "MemoryWindowHeight": 300.0,
+        "MemoryWindowWidth": 170.0,
+        "MemoryTypeEnabled": [
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true,
+            true
+        ],
+        "MemoryGroup": 2,
+        "Behavior": 0
+    },
+    "m_Filter": "",
+    "m_FilterIsRegularExpression": false,
+    "m_SymbolPaths": []
+}
