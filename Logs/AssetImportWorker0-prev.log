@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19041.928; Version 2004; 64bit' Language: 'ko' Physical Memory: 7539 MB
+OS: 'Windows 10 Education; OS build 19041.928; Version 2004; 64bit' Language: 'ko' Physical Memory: 8112 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,73 +11,633 @@ C:\Program Files\Unity\Hub\Editor\2020.3.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/ssmin/Desktop/2021-1/Project/ManBoGoChi
+C:/Users/JDK/Documents/ManBoGoChi
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9110
-Successfully changed project path to: C:/Users/ssmin/Desktop/2021-1/Project/ManBoGoChi
-C:/Users/ssmin/Desktop/2021-1/Project/ManBoGoChi
+62780
+Successfully changed project path to: C:/Users/JDK/Documents/ManBoGoChi
+C:/Users/JDK/Documents/ManBoGoChi
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.83 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 67.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ssmin/Desktop/2021-1/Project/ManBoGoChi/Assets
+[Subsystems] Discovering subsystems at path C:/Users/JDK/Documents/ManBoGoChi/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
     Vendor:   
     VRAM:     5991 MB
-    Driver:   27.21.14.6140
+    Driver:   26.21.14.4223
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56848
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002200 seconds.
+Registered in 0.003275 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.79 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.05 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.002 seconds
+- Completed reload, in  4.362 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001760 seconds.
+Registered in 0.002408 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 47.04 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.948 seconds
+- Completed reload, in  1.070 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2240 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.6 MB.
-System memory in use after: 101.7 MB.
+System memory in use before: 98.9 MB.
+System memory in use after: 99.0 MB.
 
 Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2674.
-Total: 2.406700 ms (FindLiveObjects: 0.289100 ms CreateObjectMapping: 0.108700 ms MarkObjects: 1.937700 ms  DeleteObjects: 0.069500 ms)
+Total: 2.078100 ms (FindLiveObjects: 0.234100 ms CreateObjectMapping: 0.103900 ms MarkObjects: 1.676100 ms  DeleteObjects: 0.062900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Scripts/GameStartSceneScript.cs
-  artifactKey: Guid(1c0410e24e1389e4580400523c001b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scripts/GameStartSceneScript.cs using Guid(1c0410e24e1389e4580400523c001b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5e7985b10fa726929eee3a095c0479') in 0.034390 seconds
-  Import took 0.039228 seconds .
+  path: Assets/Scenes/StoreScene.unity
+  artifactKey: Guid(0f3ab7b470d1d3d4099a3f9f544ca682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StoreScene.unity using Guid(0f3ab7b470d1d3d4099a3f9f544ca682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a65de5282d2f1c7232ed2587501859f') in 0.016197 seconds
+  Import took 0.019520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Scenes/StoreScene 1.unity
+  artifactKey: Guid(0402aa4873f52804dabee0960c7e26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StoreScene 1.unity using Guid(0402aa4873f52804dabee0960c7e26f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b95892d91f98d2254ff5dc21cc095be') in 0.008661 seconds
+  Import took 0.012574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 435.306591 seconds.
+  path: Assets/Scenes/Graphic/BackGround/MANBO_BACKGROUND_02.png
+  artifactKey: Guid(a8a47f76976df914f95183637850261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/MANBO_BACKGROUND_02.png using Guid(a8a47f76976df914f95183637850261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3aa33f1d1edac9c3f1290da3864ccd') in 0.224772 seconds
+  Import took 0.230114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_03.png
+  artifactKey: Guid(4c4c072674a7f354bb7fe5ccca40bbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_03.png using Guid(4c4c072674a7f354bb7fe5ccca40bbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb9f89b5802c1430a3276951f15f186') in 0.018640 seconds
+  Import took 0.024885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_04.png
+  artifactKey: Guid(6069cc39b244fc14ea3c3b9e610704b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_04.png using Guid(6069cc39b244fc14ea3c3b9e610704b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba095d0bfbb36d69b0469765c4630ca') in 0.017843 seconds
+  Import took 0.023374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Scenes/Graphic/BackGround/MANBO_BACKGROUND_02.png
+  artifactKey: Guid(a8a47f76976df914f95183637850261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/MANBO_BACKGROUND_02.png using Guid(a8a47f76976df914f95183637850261d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de3aa33f1d1edac9c3f1290da3864ccd') in 0.025666 seconds
+  Import took 0.030981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/Graphic/BackGround/Sprites/manbogochi_background_03.png
+  artifactKey: Guid(2d3ca8587c6fed849afb9ca1e7933f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/Sprites/manbogochi_background_03.png using Guid(2d3ca8587c6fed849afb9ca1e7933f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23605c6b7b16f5b08bf53302bc38a10') in 0.018742 seconds
+  Import took 0.023171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_02.gif
+  artifactKey: Guid(3b7dcb7917c42bd4695d3f34e2eb16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_02.gif using Guid(3b7dcb7917c42bd4695d3f34e2eb16ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5b318313fb1b3cbf0656f79c4a7ccf') in 0.023933 seconds
+  Import took 0.028404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_06.png
+  artifactKey: Guid(9b40b97b77c2c38468114527f735c0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_06.png using Guid(9b40b97b77c2c38468114527f735c0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad87d57ee2d1196cc84c3811509ebd1') in 0.016655 seconds
+  Import took 0.020587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_03.gif
+  artifactKey: Guid(f7f2393cf7cd8ec418786af03c4c449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_03.gif using Guid(f7f2393cf7cd8ec418786af03c4c449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9575754e426694b5a6e00130f7f03fc7') in 0.016670 seconds
+  Import took 0.021705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_05.png
+  artifactKey: Guid(1e0fba3f79950af41b94eb73d8b67c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_05.png using Guid(1e0fba3f79950af41b94eb73d8b67c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3c7ce4d589f46e0e0eb81885f353fe') in 0.017164 seconds
+  Import took 0.021513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008925 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_05.png
+  artifactKey: Guid(1e0fba3f79950af41b94eb73d8b67c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_05.png using Guid(1e0fba3f79950af41b94eb73d8b67c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3c7ce4d589f46e0e0eb81885f353fe') in 0.017682 seconds
+  Import took 0.021830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.038916 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_07.png
+  artifactKey: Guid(aa78be6470365bc46a5891e93094b51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_07.png using Guid(aa78be6470365bc46a5891e93094b51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a4979b9dd072b02be48bc3d817023d') in 0.031236 seconds
+  Import took 0.035420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_08.png
+  artifactKey: Guid(11cec0205a520b34ab6817cccdd7e91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_08.png using Guid(11cec0205a520b34ab6817cccdd7e91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4fcc6dc4484cc1e86e24f5462eaf82d') in 0.020325 seconds
+  Import took 0.024633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_09.png
+  artifactKey: Guid(f12be29af2ef00643915b2792c363b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_09.png using Guid(f12be29af2ef00643915b2792c363b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557f1e1627f58007e6c21eba40a1ed74') in 0.021161 seconds
+  Import took 0.024922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_17.png
+  artifactKey: Guid(0b4cc3a47ca3b4f42842f0cc7f959b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_17.png using Guid(0b4cc3a47ca3b4f42842f0cc7f959b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9160a5447f775d86cc4fc3117c49330a') in 0.016444 seconds
+  Import took 0.020711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_18.png
+  artifactKey: Guid(69d44e6617dedb8449178e8b1f097d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_18.png using Guid(69d44e6617dedb8449178e8b1f097d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad1c91545990121f149601bf28ff0ea') in 0.015608 seconds
+  Import took 0.019504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_36.png
+  artifactKey: Guid(608011ce19525ec4e97720403ac2b34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_36.png using Guid(608011ce19525ec4e97720403ac2b34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51403b19c3af049621bab5d1436bffe3') in 0.026614 seconds
+  Import took 0.030594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_35.png
+  artifactKey: Guid(6eca3243c092f1340b37402a114ab46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_35.png using Guid(6eca3243c092f1340b37402a114ab46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3591fba4c672d6d56c80e4a05ee8aa26') in 0.020023 seconds
+  Import took 0.023638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Scenes/Graphic/Character/Sprites/ManboGochi_egg_02.png
+  artifactKey: Guid(ce13345bb5a16114a96e235deb860384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Character/Sprites/ManboGochi_egg_02.png using Guid(ce13345bb5a16114a96e235deb860384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26887ab6959c315a61bf333c0be23bea') in 0.120514 seconds
+  Import took 0.124602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_home_01_clicked.gif
+  artifactKey: Guid(ba1fdcf5e603099438465fd99769e57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_home_01_clicked.gif using Guid(ba1fdcf5e603099438465fd99769e57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191789c5917dca5aada27b805960372c') in 0.018424 seconds
+  Import took 0.023368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Scenes/Graphic/Fonts/ManboGochi_numbers.gif
+  artifactKey: Guid(6d4204d060c482c4e8d2191bca8858e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Fonts/ManboGochi_numbers.gif using Guid(6d4204d060c482c4e8d2191bca8858e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8b3bf1e4539f0af838dc5492afebd9') in 0.016995 seconds
+  Import took 0.020987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_locked.gif
+  artifactKey: Guid(f3e57b491f4419f4e98e2e2de8469688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_locked.gif using Guid(f3e57b491f4419f4e98e2e2de8469688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe2e32ef4f0e656107afe26e00d7994') in 0.015321 seconds
+  Import took 0.020081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_34.png
+  artifactKey: Guid(118d793a27609794fa871b17e33daf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_34.png using Guid(118d793a27609794fa871b17e33daf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbd7caab8ad6c19163e48bff6afbf43') in 0.015833 seconds
+  Import took 0.019936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_16.png
+  artifactKey: Guid(96c5b1c44f2c88a42be5e1e9a9b1abde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_16.png using Guid(96c5b1c44f2c88a42be5e1e9a9b1abde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ed8472f388b23248e7e1b4a1031ff2') in 0.015800 seconds
+  Import took 0.020320 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_37.png
+  artifactKey: Guid(ed3cb882b1d51be4da4e5997e9a3960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_37.png using Guid(ed3cb882b1d51be4da4e5997e9a3960e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ee811511149ce350d52b469eec644c') in 0.020990 seconds
+  Import took 0.024862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_38.png
+  artifactKey: Guid(2a7b8a1de15ec4d4ebcf0cdea5546e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_38.png using Guid(2a7b8a1de15ec4d4ebcf0cdea5546e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff5556991f8cbd2a36ce31b9261c15d') in 0.021409 seconds
+  Import took 0.025166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_money.gif
+  artifactKey: Guid(6f9b8d096f4f025419989e6fa7453c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_money.gif using Guid(6f9b8d096f4f025419989e6fa7453c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e8fb18a21aa65a4e9f576210366fbf4') in 0.014578 seconds
+  Import took 0.018145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_39.png
+  artifactKey: Guid(b03fecca64255994eb6ebf8dc909588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_39.png using Guid(b03fecca64255994eb6ebf8dc909588e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa8b6c603c2947f1c0d723712e0e891') in 0.018336 seconds
+  Import took 0.022344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Scenes/Graphic/Items/Manbogochi_item_iushik.gif
+  artifactKey: Guid(6f35b80c29f71c141bb7c4880dbab3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Items/Manbogochi_item_iushik.gif using Guid(6f35b80c29f71c141bb7c4880dbab3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a07f364b22d451345135c10f91d0f16') in 0.014273 seconds
+  Import took 0.017687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_42.png
+  artifactKey: Guid(6d9c8d4ce6844ae4fbcba52cc2dfa7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_42.png using Guid(6d9c8d4ce6844ae4fbcba52cc2dfa7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da638059f63f6d1b6a4bc9b4734d8518') in 0.018401 seconds
+  Import took 0.021925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scenes/Graphic/Items/ManBoGochi_Item_Battery.gif
+  artifactKey: Guid(70ff3dd007ffd9a4faff2bf5901aaf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Items/ManBoGochi_Item_Battery.gif using Guid(70ff3dd007ffd9a4faff2bf5901aaf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4b219df3017e2ca4397c61975fded9') in 0.014236 seconds
+  Import took 0.018047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scenes/Graphic/Items/ManBoGochi_Item_Incubator_type1.gif
+  artifactKey: Guid(fa363b888fa502e49aa62cc47714d97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Items/ManBoGochi_Item_Incubator_type1.gif using Guid(fa363b888fa502e49aa62cc47714d97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0f6057f924a5fbb6ef852e089768960') in 0.015420 seconds
+  Import took 0.019153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Scenes/Graphic/Items/ManBoGochi_Item_Incubator_type2.gif
+  artifactKey: Guid(1a0a45b3e50fc5244899ecd06e3f09c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Items/ManBoGochi_Item_Incubator_type2.gif using Guid(1a0a45b3e50fc5244899ecd06e3f09c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ad759a17ad9b23fcbd1316a7e027ae') in 0.015637 seconds
+  Import took 0.020441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Scenes/Graphic/Items/ManBoGochi_Item_YomoChar.gif
+  artifactKey: Guid(f848f5ece0df9d7438a9e3b09a67f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Items/ManBoGochi_Item_YomoChar.gif using Guid(f848f5ece0df9d7438a9e3b09a67f03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f47bb6a3bad08a43b7f2a71c0cd78c') in 0.022821 seconds
+  Import took 0.028318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_11.png
+  artifactKey: Guid(b47dc851cb650b14eae6f9e8f95c6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_11.png using Guid(b47dc851cb650b14eae6f9e8f95c6a29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca02ca3f62c56e247365b62885fb0d4') in 0.015730 seconds
+  Import took 0.019622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Scenes/Graphic/Items/ManBoGochi_item_diaper.gif
+  artifactKey: Guid(397152d10910e0e49a2518671ac00019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Items/ManBoGochi_item_diaper.gif using Guid(397152d10910e0e49a2518671ac00019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd058986eaed89db26b4f3afac61c8f1f') in 0.017773 seconds
+  Import took 0.021889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_10.png
+  artifactKey: Guid(e1059ad2d4806c54cbc6d73b2161c1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_10.png using Guid(e1059ad2d4806c54cbc6d73b2161c1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f669c20ce9e7cd6a9b13e39c80b024') in 0.020012 seconds
+  Import took 0.024005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_13.png
+  artifactKey: Guid(d9054da1bc477da488b6466c8a394d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_13.png using Guid(d9054da1bc477da488b6466c8a394d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6980c4753e95aa2fa00ec385ad4f2e79') in 0.018245 seconds
+  Import took 0.023154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_14.png
+  artifactKey: Guid(8417126aa24a7fc4b937dad56e1291d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_14.png using Guid(8417126aa24a7fc4b937dad56e1291d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d524ce380f158b4946d03936c65245') in 0.019288 seconds
+  Import took 0.022972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_40.png
+  artifactKey: Guid(b3d4c446641433d4caa5cebb1924c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_40.png using Guid(b3d4c446641433d4caa5cebb1924c71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74b04f319fa474fecedd1923f5e4e7f') in 0.019937 seconds
+  Import took 0.023726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Scenes/Graphic/Fonts/ManboGochi_font_01.gif
+  artifactKey: Guid(3ba89d64fd69dfd44ad1b0d0352fad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Fonts/ManboGochi_font_01.gif using Guid(3ba89d64fd69dfd44ad1b0d0352fad81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81093670cc7e567ef8c35600b5b9b688') in 0.014029 seconds
+  Import took 0.017584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_store.gif
+  artifactKey: Guid(63e07ff95e4146544baf363e294d70f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_store.gif using Guid(63e07ff95e4146544baf363e294d70f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32d9f443cd1297bf0fcd366dc4cf272d') in 0.015427 seconds
+  Import took 0.019619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_home_01.gif
+  artifactKey: Guid(75779897ccdd574408990d98d86827a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/UserInterFace/ManboGochi_menu_home_01.gif using Guid(75779897ccdd574408990d98d86827a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956e8bcdf0a1fbf88187ac389c7496be') in 0.014991 seconds
+  Import took 0.018854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_15.png
+  artifactKey: Guid(b693e3f3059949c4387a2a024c714e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_15.png using Guid(b693e3f3059949c4387a2a024c714e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e9fe2383821d7372191fb71796e756') in 0.022351 seconds
+  Import took 0.026877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_12.png
+  artifactKey: Guid(deb285716989e6a44965e34014990ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_12.png using Guid(deb285716989e6a44965e34014990ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9a9244b2b716926655a70517cacf66') in 0.019208 seconds
+  Import took 0.023572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_41.png
+  artifactKey: Guid(535f4b6a520f01643b2ee18565d2e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_41.png using Guid(535f4b6a520f01643b2ee18565d2e732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80ad2f65f8e0cedba62a9c9d871b35c') in 0.017737 seconds
+  Import took 0.022684 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.514799 seconds.
+  path: Assets/Scenes/Graphic/Character/ManboGochi_egg_02.gif
+  artifactKey: Guid(9d1f7363bf14f7a48b885aec9c38fd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Character/ManboGochi_egg_02.gif using Guid(9d1f7363bf14f7a48b885aec9c38fd2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '012444d822cdd44c5de4d4acd9a78fcf') in 0.022160 seconds
+  Import took 0.025862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246981 seconds.
+  path: Assets/Scenes/Graphic/Character/manboGochi_creature_unknown_01.gif
+  artifactKey: Guid(008b17bd93659b243a87e9f230638a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Character/manboGochi_creature_unknown_01.gif using Guid(008b17bd93659b243a87e9f230638a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639e1b248cead3cd0500594123e0147f') in 0.018231 seconds
+  Import took 0.022893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Scenes/Graphic/Character/ManboGochi_egg_01.gif
+  artifactKey: Guid(24576d058c5db644697490e1d44c587e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Character/ManboGochi_egg_01.gif using Guid(24576d058c5db644697490e1d44c587e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd23a67b0c73344ec0ad7b4f73455c7') in 0.017923 seconds
+  Import took 0.022318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000339 seconds.
+  path: Assets/Scenes/Graphic/Character/manboGochi_creature_kid_03.gif
+  artifactKey: Guid(f3dfadc3ee85dae44bb64ca16b49e03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Character/manboGochi_creature_kid_03.gif using Guid(f3dfadc3ee85dae44bb64ca16b49e03e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046da4bc00960992ccb1ec3ee095c0f7') in 0.022059 seconds
+  Import took 0.026127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Scenes/Graphic/Character/manboGochi_creature_kid_01.gif
+  artifactKey: Guid(31d6274b116808f439f93a86c8735821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Character/manboGochi_creature_kid_01.gif using Guid(31d6274b116808f439f93a86c8735821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b15dc3fa8a78fd1348a4f8b49b9c01c') in 0.018395 seconds
+  Import took 0.022770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Scenes/Graphic/Character/manboGochi_creature_kid_02.gif
+  artifactKey: Guid(ee8e7aa6630745c4ca2dea14d32b375e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/Character/manboGochi_creature_kid_02.gif using Guid(ee8e7aa6630745c4ca2dea14d32b375e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ece23cd5d90191ad65403d747fa02a1') in 0.016022 seconds
+  Import took 0.020172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.271433 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_32.png
+  artifactKey: Guid(3ca26debbc8aaa144a8025c784a9fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_32.png using Guid(3ca26debbc8aaa144a8025c784a9fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4957c323bddfa5d205e31ef91c9fb64c') in 0.016512 seconds
+  Import took 0.021063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000377 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_33.png
+  artifactKey: Guid(7d94c94118d0f4e4aa35afd3657ee7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_33.png using Guid(7d94c94118d0f4e4aa35afd3657ee7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b66e696eb48d38dc97a94045da074b') in 0.017255 seconds
+  Import took 0.021570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.278174 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_30.png
+  artifactKey: Guid(45651f05d58dd264e9fccfbab1913c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_30.png using Guid(45651f05d58dd264e9fccfbab1913c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3561c5f6a28e37521448c8e1feaae15') in 0.026288 seconds
+  Import took 0.030955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_31.png
+  artifactKey: Guid(318ee660d3b033143b3e1117e6281a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_31.png using Guid(318ee660d3b033143b3e1117e6281a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce803d628bf3bd77118fffdaee2e7bc8') in 0.017858 seconds
+  Import took 0.022336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_29.png
+  artifactKey: Guid(2fc9af4fd7916e741aa94190116d13dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_29.png using Guid(2fc9af4fd7916e741aa94190116d13dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b0d409066a4aa22c110a3e3001a499') in 0.020705 seconds
+  Import took 0.024803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_28.png
+  artifactKey: Guid(84f9b6dd94e92b6459e2b70043cf9f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_28.png using Guid(84f9b6dd94e92b6459e2b70043cf9f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e807d6a6a6e87f2ffb212c3003c36c4') in 0.018046 seconds
+  Import took 0.023046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_27.png
+  artifactKey: Guid(19ef0f163cd6ecd47bf0c34d95411a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_27.png using Guid(19ef0f163cd6ecd47bf0c34d95411a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf16567be94d2d94f00e3947d6dd48a1') in 0.017790 seconds
+  Import took 0.021591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_26.png
+  artifactKey: Guid(a3cd88c64ddfc2649b220178cc008600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_26.png using Guid(a3cd88c64ddfc2649b220178cc008600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341b40eee9c16ed16608bfb0c34f012b') in 0.020050 seconds
+  Import took 0.023929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177615 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_24.png
+  artifactKey: Guid(ca4fc9e570df1874b8d31c1bbe51528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_24.png using Guid(ca4fc9e570df1874b8d31c1bbe51528c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a9e5b7e23f82dc058991016cb0a395') in 0.017957 seconds
+  Import took 0.022277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_25.png
+  artifactKey: Guid(c4a511ffa164d1d4f9e901aedd9fbaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_25.png using Guid(c4a511ffa164d1d4f9e901aedd9fbaee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c758a19d73ad6a36dc820460b89e0139') in 0.017420 seconds
+  Import took 0.021974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_23.png
+  artifactKey: Guid(74541be23ad59c941aee2856d90573ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_23.png using Guid(74541be23ad59c941aee2856d90573ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9dd67f39a4d8c86908402154a3b024b') in 0.020703 seconds
+  Import took 0.024603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_22.png
+  artifactKey: Guid(6ff2bae9fca725042b6f77684836d911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_22.png using Guid(6ff2bae9fca725042b6f77684836d911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676da92f73ea3416cff95d737d029848') in 0.020723 seconds
+  Import took 0.026629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013584 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_19.png
+  artifactKey: Guid(e4ef6f520ffdbf94e82ca89ad6d8fba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_19.png using Guid(e4ef6f520ffdbf94e82ca89ad6d8fba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7228de647f7848f0b140b1c03e5d45a') in 0.019091 seconds
+  Import took 0.023658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_20.png
+  artifactKey: Guid(7b39120502091494d9a60a7750e1d0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_20.png using Guid(7b39120502091494d9a60a7750e1d0bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f382160740d0ca2fa0febce0dbbdfb') in 0.018958 seconds
+  Import took 0.023092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_21.png
+  artifactKey: Guid(2c987133b83cc24479beaba9367bd0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_21.png using Guid(2c987133b83cc24479beaba9367bd0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234d98813b5eb65ff32c9b9dd244eb49') in 0.016558 seconds
+  Import took 0.020202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008618 seconds.
+  path: Assets/Scenes/Graphic/BackGround/manbogochi_background_21.png
+  artifactKey: Guid(2c987133b83cc24479beaba9367bd0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/manbogochi_background_21.png using Guid(2c987133b83cc24479beaba9367bd0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234d98813b5eb65ff32c9b9dd244eb49') in 0.018415 seconds
+  Import took 0.022870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.988094 seconds.
+  path: Assets/Scenes/Graphic/BackGround
+  artifactKey: Guid(d115208cd225bac4bbc36af88d834702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround using Guid(d115208cd225bac4bbc36af88d834702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e9aeac42808e7254108ad9bf96c6013') in 0.006868 seconds
+  Import took 0.011273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.772605 seconds.
+  path: Assets/Scenes/Graphic/BackGround/Black.jpg
+  artifactKey: Guid(805774315d7cf4b4da3daa5dc31d1e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Graphic/BackGround/Black.jpg using Guid(805774315d7cf4b4da3daa5dc31d1e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cbc7eec3bfa1b549ae0631d307ba2ef') in 0.036288 seconds
+  Import took 0.074290 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
