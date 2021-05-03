@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "RF8MB09KFRK",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 8726,
+        "processId": 25386,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -17,73 +17,109 @@
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 6635,
-            "exited": true
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 12243,
-            "exited": true
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 13919,
-            "exited": true
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 14521,
-            "exited": true
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 15459,
-            "exited": true
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.sec.android.app.clockpackage",
-            "processId": 16070,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 21019,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 28062,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 29326,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 5176,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 8387,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 8726,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 20269,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 22750,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 23561,
+            "exited": true
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.kakao.talk",
+            "processId": 14679,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 17239,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 2119,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 2793,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 5058,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 5951,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 6759,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 12025,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 12869,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 15262,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 19836,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 21582,
+            "exited": false
+        },
+        {
+            "deviceId": "RF8MB09KFRK",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25386,
             "exited": false
         }
     ],

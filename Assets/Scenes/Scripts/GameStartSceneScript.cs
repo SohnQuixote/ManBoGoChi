@@ -1,56 +1,119 @@
+namespace PedometerU.Tests
+{
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.InputSystem;
 public class GameStartSceneScript : MonoBehaviour
-{
-    
+{   
     GameObject money;
     GameObject home_menu;
     GameObject  manbo_money;
+    GameObject manbo_egg;
+    GameObject target;
+    public Text stepText;
+    private Pedometer pedometer;
+    //const string pluginName = "com.example.mypedometer";
+    string step_text;
+    
+    /*void OnStep(int steps , double distance)
+    {
+        step_text = steps.ToString();
+    }*/
+    //static AndroidJavaClass _pluginClass;
+    //static AndroidJavaObject _pluginInstance;
+    /*public static AndroidJavaClass PluginClass{
+        get{
+            if(_pluginClass == null)
+            {
+                _pluginClass = new AndroidJavaClass(pluginName);
+            }
+             return _pluginClass;
+        }
+       
+    }
+    public static AndroidJavaObject PluginInstance{
+        get{
+            if(_pluginInstance == null)
+            {
+                _pluginInstance = PluginClass.CallStatic<AndroidJavaObject>("getInstance");
+            }
+         return _pluginInstance;
+        }
+         */
+
+    //}
     int a=0;
     // Start is called before the first frame update
     private int click_count;
     private bool last_state;
+    //public StepCounter counter;
+    //private IntegerControl stepcount;
     void Start()
     {
-        Input.gyro.enabled = true;
+        //var pedometer = new Pedometer();
+        
         this.money = GameObject.Find("Money");
         this.manbo_money = GameObject.Find("ManboGochi_menu_money");
-        this.home_menu = GameObject.Find("ManboGochi_menu_home_01");
+        //stepcount = IntegerContorl();
+        //this.home_menu = GameObject.Find("ManboGochi_menu_home_01");
+        this.manbo_egg = GameObject.Find("ManboGochi_egg_01");
         click_count =0;
         last_state = false;
         this.money.GetComponent<Text>().text = a + "원";
+        pedometer = new Pedometer(OnStep);
+        OnStep(0,0);
+        //counter = StepCounter();
+        //InputSystem.EnableDevice(counter);
+        //stepcount = counter.stepCounter;
     }
-
+    private void OnStep(int steps,double distance)
+    {
+        this.money.GetComponent<Text>().text = steps.ToString() + "WP";
+        a =steps;
+    }
+    private void OnDisable() {
+        pedometer.Dispose();
+        pedometer = null;
+    }
+    void CastRay()
+    {
+        //target = null;
+        //Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        //RayCastHit2D hit = Physics2D.RayCast(pos,Vector2.zero ,0f);
+        //if(hit.collider != null && target == manbo_egg)
+            //{
+                
+            //}
+    }
     // Update is called once per frame
+     void FixedUpdate() {
+  
+    }
     void Update()
     {
-        bool state = Input.GetMouseButton(0);
+        //this.money.GetComponent<Text>().text = a+"WP";
+        /*bool state = Input.GetMouseButton(0);
         if(state == false)
             if(last_state != state)
                     click_count++;
         last_state = state;
             
-        this.money.GetComponent<Text>().text = click_count+ "원";
+        this.money.GetComponent<Text>().text = click_count+ "원";*/
         if(Application.platform == RuntimePlatform.Android)
         {
-            if(Input.GetKey(KeyCode.Home))
-            {
-
-            }
-            else if(Input.GetKey(KeyCode.Escape))
+  
+            if(Input.GetKey(KeyCode.Escape))
             {
                 SceneManager.LoadScene("Main_Scene");
-            }
-            else if(Input.GetKey(KeyCode.Menu))
-            {
-
             }
 
 
         }
     }
 }
+
+}
+
