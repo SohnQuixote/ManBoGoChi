@@ -58,10 +58,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scenes\Scripts\TouchtoStart.cs" />
     <Compile Include="Assets\Scenes\Scripts\Main_Scen_Behavior.cs" />
+    <Compile Include="Assets\ItemBuffer.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\PedometerUtility.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\Pedometer.cs" />
+    <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\Scenes\Scripts\GameStartSceneScript.cs" />
+    <Compile Include="Assets\Store.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\PedometerTypes.cs" />
+    <Compile Include="Assets\ItemProperty.cs" />
     <Compile Include="Assets\Pedometer\Example\StepCounter.cs" />
     <Compile Include="Assets\Scenes\Scripts\egg_behavior_script.cs" />
     <Compile Include="Assets\Scenes\Scripts\UIButtonScript.cs" />
@@ -69,10 +73,8 @@
     <Compile Include="Assets\Pedometer\Plugins\Managed\Platforms\PedometerAndroid.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\IPedometer.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\Platforms\PedometerBridge.cs" />
-    <Compile Include="Assets\ItemBuffer.cs" />
-    <Compile Include="Assets\Store.cs" />
-    <Compile Include="Assets\Item.cs" />
-    <Compile Include="Assets\ItemProperty.cs" />
+    <Compile Include="Assets\Back.cs" />
+    <Compile Include="Assets\ChangeScene.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
