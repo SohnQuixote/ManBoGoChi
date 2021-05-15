@@ -22,7 +22,7 @@ public class Store : MonoBehaviour
             
             if(i < itemBuffer.items.Count)
             {
-                item.SetItem(itemBuffer.items[i]);
+                item.SetStoreItem(itemBuffer.items[i]);
             }
             else
             {

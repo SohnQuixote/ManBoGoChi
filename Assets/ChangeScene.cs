@@ -9,4 +9,8 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("StoreScene");
     }
+    public void ToInventory()
+    {
+        SceneManager.LoadScene("InventoryScene");
+    }
 }

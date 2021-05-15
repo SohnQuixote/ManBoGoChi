@@ -8,4 +8,6 @@ public class ItemProperty
     public string name;
     public Sprite sprite;
     public string explain;
+    public int cost;
+    public int index;
 }
