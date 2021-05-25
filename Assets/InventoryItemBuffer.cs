@@ -23,8 +23,8 @@ public class InventoryItemBuffer : MonoBehaviour
             explain = itembuffer.items[i].explain;
             cost = itembuffer.items[i].cost;
             index = itembuffer.items[i].index;
-            count = 5;
-
+            //PlayerPrefs.SetInt(index.ToString(),0);
+            count = PlayerPrefs.GetInt(index.ToString(),0);
             items.Add(new InventoryItemProperty(name, sprite, explain, cost, index, count));
         }
     }

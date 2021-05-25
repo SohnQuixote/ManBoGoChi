@@ -3,129 +3,63 @@
     "m_SelectedPackage": {
         "deviceId": "RF8MB09KFRK",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 17045,
+        "processId": 29708,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "RF8MB09KFRK",
-            "name": "com.sec.android.app.launcher",
-            "processId": 8103,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 8387,
+            "processId": 21511,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 8726,
+            "processId": 22779,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 20269,
+            "processId": 23315,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 22750,
+            "processId": 25142,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 23561,
+            "processId": 25627,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
-            "name": "com.kakao.talk",
-            "processId": 14679,
+            "name": "com.sec.android.app.myfiles",
+            "processId": 26137,
             "exited": false
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 17239,
+            "processId": 26985,
             "exited": false
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 2119,
+            "processId": 27295,
             "exited": false
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 2793,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 5058,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 5951,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 6759,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 12025,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 12869,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 15262,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 19836,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 21582,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 25386,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 17045,
+            "processId": 29708,
             "exited": false
         }
     ],

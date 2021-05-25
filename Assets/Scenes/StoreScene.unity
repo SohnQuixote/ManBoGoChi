@@ -1050,6 +1050,7 @@ GameObject:
   - component: {fileID: 143038166}
   - component: {fileID: 143038165}
   - component: {fileID: 143038168}
+  - component: {fileID: 143038169}
   m_Layer: 5
   m_Name: Buy
   m_TagString: Untagged
@@ -1171,6 +1172,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 515a2386ba5bd8b4d8790625b96dd48a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SelectedItem: {fileID: 1386915014}
+  ItemRoot: {fileID: 1451325740}
+  itembuffer: {fileID: 143038169}
+--- !u!114 &143038169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143038163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ffe6fdf47ef06c408e297c036082011, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
+  itembuffer: {fileID: 47706414}
 --- !u!1 &178157651
 GameObject:
   m_ObjectHideFlags: 0
@@ -2787,7 +2805,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
