@@ -7,10 +7,11 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 public class GameStartSceneScript : MonoBehaviour
-{   
+{
+    SpriteRenderer renderer;
     GameObject money;
     GameObject home_menu;
-    GameObject  manbo_money;
+    GameObject manbo_money;
     GameObject manbo_egg;
     GameObject target;
     public Text stepText;
@@ -49,6 +50,7 @@ public class GameStartSceneScript : MonoBehaviour
     // Start is called before the first frame update
     private int click_count;
     private bool last_state;
+    private string shape; 
     //public StepCounter counter;
     //private IntegerControl stepcount;
     void Start()
@@ -59,6 +61,13 @@ public class GameStartSceneScript : MonoBehaviour
         this.manbo_money = GameObject.Find("ManboGochi_menu_money");
         //stepcount = IntegerContorl();
         //this.home_menu = GameObject.Find("ManboGochi_menu_home_01");
+        /*
+        shape = PlayerPrefs.GetString("shape", "ManboGochi_egg_01");
+        this.manbo_egg = GameObject.Find("ManboGochi_egg_01");
+        renderer = manbo_egg.GetComponent<SpriteRenderer>();
+        renderer.sprite = Resources.Load("Character/" + shape) as Sprite;
+        */
+
         this.manbo_egg = GameObject.Find("ManboGochi_egg_01");
         click_count =0;
         last_state = false;
