@@ -16,13 +16,13 @@ public class Store : MonoBehaviour
 
         int itemCount = ItemRoot.childCount;
 
-        for(int i = 0; i < itemCount; i++)
+        for (int i = 0; i < itemCount; i++)
         {
             var item = ItemRoot.GetChild(i).GetComponent<Item>();
             
-            if(i < itemBuffer.items.Count)
+            if (i < itemBuffer.items.Count)
             {
-                item.SetStoreItem(itemBuffer.items[i]);
+                item.SetItem(itemBuffer.items[i]);
             }
             else
             {

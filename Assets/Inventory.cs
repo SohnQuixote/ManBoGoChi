@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    public InventoryItemBuffer itemBuffer;
+    public ItemBuffer itemBuffer;
     public Transform ItemRoot;
 
     private List<Item> itemList;
@@ -16,15 +16,14 @@ public class Inventory : MonoBehaviour
 
         int itemCount = ItemRoot.childCount;
 
-        itemBuffer.SetBuffer();
-
         for (int i = 0; i < itemCount; i++)
         {
             var item = ItemRoot.GetChild(i).GetComponent<Item>();
 
             if (i < itemBuffer.items.Count)
             {
-                item.SetInventoryItem(itemBuffer.items[i]);
+                item.SetItem(itemBuffer.items[i]);
+                item.SetCount(itemBuffer.items[i]);
             }
             else
             {

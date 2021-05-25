@@ -6,26 +6,26 @@ public class UseItem : MonoBehaviour
 {
     public Transform SelectedItem;
     public Transform ItemRoot;
-    public InventoryItemBuffer itembuffer;
 
     private int count;
     private int temp;
     public void OnClickUse()
     {
         var selecteditem = SelectedItem.GetComponent<ItemIndex>();
-        
-        if(itembuffer.items[selecteditem.index].count > 0)
+        var item = ItemRoot.GetChild(selecteditem.index).GetComponent<Item>();
+        temp = PlayerPrefs.GetInt(item.name, 0);
+
+        if (temp > 0)
         {
-            var item = ItemRoot.GetChild(selecteditem.index).GetComponent<Item>();
-            temp = PlayerPrefs.GetInt(selecteditem.index.ToString());
-            temp = temp--;
-            PlayerPrefs.SetInt(selecteditem.index.ToString() , temp);
-            itembuffer.items[selecteditem.index].count = temp;
-            item.icount.text = itembuffer.items[selecteditem.index].count.ToString();
+            temp -= 1;
+            item.icount.text = temp.ToString();
+            PlayerPrefs.SetInt(item.name , temp);
         }
         else
         {
-
+            temp += 5;
+            item.icount.text = temp.ToString();
+            PlayerPrefs.SetInt(item.name, temp);
         }
 
     }

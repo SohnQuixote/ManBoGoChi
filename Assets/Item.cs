@@ -17,12 +17,14 @@ public class Item : MonoBehaviour
     private string curexplain;
     private int curcost;
     private int curindex;
+    private int curcount;
 
-    public void SetStoreItem(ItemProperty iprop)
+
+    public void SetItem(ItemProperty iprop)
     {
         this.iprop = iprop;
 
-        if(iprop == null)
+        if (iprop == null)
         {
             image.enabled = false;
 
@@ -40,11 +42,9 @@ public class Item : MonoBehaviour
         }
     }
 
-    public void SetInventoryItem(InventoryItemProperty iprop)
+    public void SetCount(ItemProperty iprop)
     {
-        this.iprop = iprop;
-
-        if (iprop == null)
+        if(iprop == null)
         {
             image.enabled = false;
 
@@ -52,17 +52,12 @@ public class Item : MonoBehaviour
         }
         else
         {
-            image.enabled = true;
             icount.enabled = true;
             countimage.enabled = true;
 
-            gameObject.name = iprop.name;
-            image.sprite = iprop.sprite;
-            icount.text = iprop.count.ToString();
-            curexplain = iprop.explain;
-            curcost = iprop.cost;
-            curindex = iprop.index;
-}
+            curcount = PlayerPrefs.GetInt(iprop.name, 0);
+            icount.text = curcount.ToString();
+        }
     }
 
     public void OnClickItem()
