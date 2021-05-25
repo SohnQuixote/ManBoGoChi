@@ -12,21 +12,13 @@ public class Buy : MonoBehaviour
     private int temp;
     public void OnClickBuy()
     {
-        var selecteditem = SelectedItem.GetComponent<ItemIndex>();
-        
-        if(itembuffer.items[selecteditem.index].count > 0)
-        {
+            var selecteditem = SelectedItem.GetComponent<ItemIndex>();
             var item = ItemRoot.GetChild(selecteditem.index).GetComponent<Item>();
             temp = PlayerPrefs.GetInt(selecteditem.index.ToString());
             temp = temp++;
             PlayerPrefs.SetInt(selecteditem.index.ToString() , temp);
             //itembuffer.items[selecteditem.index].count = temp;
             //item.icount.text = itembuffer.items[selecteditem.index].count.ToString();
-        }
-        else
-        {
-
-        }
 
     }
 }
