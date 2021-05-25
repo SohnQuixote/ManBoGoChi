@@ -56,14 +56,19 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Inventory.cs" />
     <Compile Include="Assets\Scenes\Scripts\TouchtoStart.cs" />
     <Compile Include="Assets\Scenes\Scripts\Main_Scen_Behavior.cs" />
     <Compile Include="Assets\ItemBuffer.cs" />
+    <Compile Include="Assets\InventoryItenProperty.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\PedometerUtility.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\Pedometer.cs" />
+    <Compile Include="Assets\Buy.cs" />
+    <Compile Include="Assets\ItemIndex.cs" />
     <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\Scenes\Scripts\GameStartSceneScript.cs" />
     <Compile Include="Assets\Store.cs" />
+    <Compile Include="Assets\InventoryItemBuffer.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\PedometerTypes.cs" />
     <Compile Include="Assets\Back.cs" />
     <Compile Include="Assets\ChangeScene.cs" />
@@ -73,14 +78,13 @@
     <Compile Include="Assets\Scenes\Scripts\UIButtonScript.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\Platforms\PedometeriOS.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\Platforms\PedometerAndroid.cs" />
+    <Compile Include="Assets\UseItem.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\IPedometer.cs" />
     <Compile Include="Assets\Pedometer\Plugins\Managed\Platforms\PedometerBridge.cs" />
-    <Compile Include="Assets\InventoryItenProperty.cs" />
-    <Compile Include="Assets\InventoryItemBuffer.cs" />
-    <Compile Include="Assets\Inventory.cs" />
-    <Compile Include="Assets\UseItem.cs" />
-    <Compile Include="Assets\ItemIndex.cs" />
-    <Compile Include="Assets\Buy.cs" />
+    <Compile Include="Assets\TestScript.cs" />
+    <Compile Include="Assets\StatusProperty.cs" />
+    <Compile Include="Assets\StatusBuffer.cs" />
+    <Compile Include="Assets\Curtivate.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
