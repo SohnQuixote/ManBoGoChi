@@ -474,7 +474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items:
   - name: item1
-    sprite: {fileID: 21300000, guid: 4c1a116761cb443489153c49a045a07a, type: 3}
+    sprite: {fileID: 21300000, guid: fe528a4efa7021243b018c1d6a90609d, type: 3}
     explain: item1 explain
     cost: 1
     index: 0
@@ -484,17 +484,17 @@ MonoBehaviour:
     cost: 2
     index: 1
   - name: item3
-    sprite: {fileID: 21300000, guid: 2b873c0d6a6e1504585b6dbdc99fdfa9, type: 3}
+    sprite: {fileID: 21300000, guid: f3e10a56031a1ba4980be40f84e33d90, type: 3}
     explain: item3 explain
     cost: 3
     index: 2
   - name: item4
-    sprite: {fileID: 21300000, guid: c7748176a5235db41857983908a2e225, type: 3}
+    sprite: {fileID: 21300000, guid: 869db5e2c0e54fb4996933af3f7a4859, type: 3}
     explain: item4 explain
     cost: 4
     index: 3
   - name: item5
-    sprite: {fileID: 21300000, guid: adade7f555d41924097a6f7378550c1c, type: 3}
+    sprite: {fileID: 21300000, guid: 55b212cd1f76eec49a6b5c09f52bfbe9, type: 3}
     explain: item5 explain
     cost: 5
     index: 4
@@ -504,12 +504,12 @@ MonoBehaviour:
     cost: 6
     index: 5
   - name: item7
-    sprite: {fileID: 21300000, guid: ac21396bce2b5444c99224a2e833a15c, type: 3}
+    sprite: {fileID: 21300000, guid: 5add3fe6d7e98f74f950e01f8d8dcb19, type: 3}
     explain: item7 explain
     cost: 7
     index: 6
   - name: item8
-    sprite: {fileID: 21300000, guid: 3681bb4c6bb164c4982e41b59f116d5d, type: 3}
+    sprite: {fileID: 21300000, guid: 28af8b52ccd0907479fdef3745d38291, type: 3}
     explain: item8 explain
     cost: 8
     index: 7
@@ -529,22 +529,22 @@ MonoBehaviour:
     cost: 11
     index: 10
   - name: item12
-    sprite: {fileID: 21300000, guid: 6716187ae3a6eb44093eb60349d45c26, type: 3}
+    sprite: {fileID: 21300000, guid: a908bfaa23e57fe418320cb180ce575a, type: 3}
     explain: item12 explain
     cost: 12
     index: 11
   - name: item13
-    sprite: {fileID: 21300000, guid: 285b2a8b3c0010d438bd1daa127395cc, type: 3}
+    sprite: {fileID: 21300000, guid: 89cec5f1cca63e04ab670f5a8edfeefe, type: 3}
     explain: item13 explain
     cost: 13
     index: 12
   - name: item14
-    sprite: {fileID: 21300000, guid: 3f35f09e6b3864b43b17344a69400f0b, type: 3}
+    sprite: {fileID: 21300000, guid: 01935c0a8a8d76043a6ca08bfd5fe872, type: 3}
     explain: item14 explain
     cost: 14
     index: 13
   - name: item15
-    sprite: {fileID: 21300000, guid: fa8a0efb5c0d15b43b4f3794461d2876, type: 3}
+    sprite: {fileID: 21300000, guid: 4c073905e5c29294eb90488dff9c86f8, type: 3}
     explain: item15 explain
     cost: 15
     index: 14
@@ -1186,7 +1186,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelectedItem: {fileID: 1386915014}
   ItemRoot: {fileID: 1451325740}
-  itembuffer: {fileID: 143038169}
 --- !u!114 &143038169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1199,8 +1198,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ffe6fdf47ef06c408e297c036082011, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  items: []
-  itembuffer: {fileID: 47706414}
 --- !u!1 &178157651
 GameObject:
   m_ObjectHideFlags: 0
