@@ -6,7 +6,6 @@ using UnityEngine.UI;
 public class Curtivate : MonoBehaviour
 {
     public Slider slider;
-    public StatusBuffer buffer;
     public GameObject manbo_egg;
     public SpriteRenderer renderer;
     public Sprite image1;
@@ -14,48 +13,53 @@ public class Curtivate : MonoBehaviour
     public Sprite image3;
 
     private int species;
+    private string shape;
+    private int exp;
 
     public void OnClickEXPPlus()
     {
-        if (buffer.status[0].exp < 100)
+        exp = PlayerPrefs.GetInt("exp", 0);
+        if (exp < 100)
         {
-            buffer.status[0].exp++;
-            slider.value = buffer.status[0].exp;
+            exp += 1;
+            slider.value = exp;
+            PlayerPrefs.SetInt("exp", exp);
         }
     }
 
     public void OnClickEXPMinus()
     {
-        if (buffer.status[0].exp > 0)
+        exp = PlayerPrefs.GetInt("exp", 0);
+        if (exp > 0)
         {
-            buffer.status[0].exp--;
-            slider.value = buffer.status[0].exp;
+            exp -= 1;
+            slider.value = exp;
+            PlayerPrefs.SetInt("exp", exp);
         }
     }
 
     public void OnClickEvol()
     {
-        if (buffer.status[0].exp == 100)
+        exp = PlayerPrefs.GetInt("exp", 0);
+        if (exp == 100)
         {
             renderer = manbo_egg.GetComponent<SpriteRenderer>();
-            species = Random.Range(0, 2);
-            /*
-            switch (species)
+            shape = PlayerPrefs.GetString("shape", "ManboGochi_egg_01");
+            if(shape == "ManboGochi_egg_01")
             {
-                case 0:
-
-                    break;
-                case 1:
-                    break;
-                case 2:
-                    break;
+                species = Random.Range(1, 4);
+                PlayerPrefs.SetString("species", species.ToString());
+                shape = "manboGochi_creature_kid_0" + species.ToString();
+                renderer.sprite = Resources.Load<Sprite>("Graphic/Character/" + shape);
+                PlayerPrefs.SetString("shape", shape);
             }
-            */
-            if (renderer.sprite == image1)
-                renderer.sprite = image2;
-            else if (renderer.sprite == image2)
-                renderer.sprite = image3;
-            buffer.status[0].exp = 0;
+            else if(shape.Contains("kid"))
+            {
+                shape = "ManBoGochi_creature_mid_0" + PlayerPrefs.GetString("species", "-1");
+                renderer.sprite = Resources.Load<Sprite>("Graphic/Character/" + shape);
+                PlayerPrefs.SetString("shape", shape);
+            }
+            PlayerPrefs.SetInt("exp", 0);
             slider.value = 0;
         }
     }

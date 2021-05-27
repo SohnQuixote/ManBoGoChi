@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
 public class GameStartSceneScript : MonoBehaviour
 {
+    public Transform status;
     SpriteRenderer renderer;
     GameObject money;
     GameObject home_menu;
@@ -50,7 +51,10 @@ public class GameStartSceneScript : MonoBehaviour
     // Start is called before the first frame update
     private int click_count;
     private bool last_state;
-    private string shape; 
+    private string shape;
+    private Slider slider;
+    private string[] statusName = new string[3] { "hunger", "clean", "exp" };
+    private int value;
     //public StepCounter counter;
     //private IntegerControl stepcount;
     void Start()
@@ -61,14 +65,18 @@ public class GameStartSceneScript : MonoBehaviour
         this.manbo_money = GameObject.Find("ManboGochi_menu_money");
         //stepcount = IntegerContorl();
         //this.home_menu = GameObject.Find("ManboGochi_menu_home_01");
-        /*
+        
         shape = PlayerPrefs.GetString("shape", "ManboGochi_egg_01");
         this.manbo_egg = GameObject.Find("ManboGochi_egg_01");
         renderer = manbo_egg.GetComponent<SpriteRenderer>();
-        renderer.sprite = Resources.Load("Character/" + shape) as Sprite;
-        */
+        renderer.sprite = Resources.Load<Sprite>("Graphic/Character/" + shape);
+        for(int i = 0; i < status.childCount; i++)
+        {
+            slider = status.GetChild(i).GetComponent<Slider>();
+            value = PlayerPrefs.GetInt(statusName[i], 0);
+            slider.value = value;
+        }
 
-        this.manbo_egg = GameObject.Find("ManboGochi_egg_01");
         click_count =0;
         last_state = false;
         this.money.GetComponent<Text>().text = a + "원";
