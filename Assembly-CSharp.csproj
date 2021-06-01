@@ -57,6 +57,7 @@
      <Compile Include="Assets\Back.cs" />
      <Compile Include="Assets\Curtivate.cs" />
      <Compile Include="Assets\ChangeScene.cs" />
+     <Compile Include="Assets\Scenes\Scripts\MiniGame03Script.cs" />
      <Compile Include="Assets\ItemProperty.cs" />
      <Compile Include="Assets\StatusBuffer.cs" />
      <Compile Include="Assets\Pedometer\Example\StepCounter.cs" />
@@ -68,7 +69,7 @@
      <Compile Include="Assets\UseItem.cs" />
      <Compile Include="Assets\Pedometer\Plugins\Managed\IPedometer.cs" />
      <Compile Include="Assets\Pedometer\Plugins\Managed\Platforms\PedometerBridge.cs" />
-     <Compile Include="Assets\Scenes\Scripts\MiniGame03Script.cs" />
+     <Compile Include="Assets\Scenes\Scripts\MiniGame04Script.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

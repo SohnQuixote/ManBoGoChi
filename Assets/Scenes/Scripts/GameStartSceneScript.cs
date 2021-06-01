@@ -60,7 +60,10 @@ public class GameStartSceneScript : MonoBehaviour
     void Start()
     {
         //var pedometer = new Pedometer();
-        
+        PlayerPrefs.SetInt("score" , 0);
+        PlayerPrefs.SetInt("heart" , 4);
+        PlayerPrefs.SetInt("GameEndFlag" ,0);
+        PlayerPrefs.SetInt("succ_or_fail" , 1);
         this.money = GameObject.Find("Money");
         this.manbo_money = GameObject.Find("ManboGochi_menu_money");
         //stepcount = IntegerContorl();

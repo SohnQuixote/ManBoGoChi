@@ -10,6 +10,11 @@ public class MinGame01Script : MonoBehaviour
     public GameObject ManBoGochi_mini_01_insect;
 
     public GameObject Manbo_insect_killed;
+
+    public AudioSource success;
+    public AudioSource fail;
+
+    public AudioSource slap;
     private string name;
     private float nextTime = 0.0f;
     // Start is called before the first frame update
@@ -76,10 +81,10 @@ public class MinGame01Script : MonoBehaviour
         if (iter == 0)
         {
             SceneManager.LoadScene("MiniGameScene");
-            if(catched == length)
-                {/*mg.set_succ_or_fail(true);*/ GuideText.text = "성공!!!";}
+            if(catched >= length)
+                {/*mg.set_succ_or_fail(true);*/PlayerPrefs.SetInt("succ_or_fail" , 1); GuideText.text = "성공!!!";success.Play();}
             else 
-                {/*mg.set_succ_or_fail(false);*/ GuideText.text = "실패...";}            
+                {/*mg.set_succ_or_fail(false);*/PlayerPrefs.SetInt("succ_or_fail" , 0); GuideText.text = "실패...";fail.Play();}            
         }
         else if(Time.time>nextTime && iter >0)
         {
@@ -101,6 +106,7 @@ public class MinGame01Script : MonoBehaviour
                     {
                         flag= 1;
                         index = i;
+                        slap.Play();
                         break;
                     }
                 }

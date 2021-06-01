@@ -20,9 +20,13 @@ public class MiniGame03Script : MonoBehaviour
     private bool stop_rotate = false;
     private int temp = 0;
     private int stop_number = 0;
+
+    public AudioSource succ;
+    public AudioSource fail;
+
     void Start()
     {
-        speed = Random.Range(-3.0f,-4.0f);
+        speed = Random.Range(-10.0f,-15.0f);
         stop_number = Random.Range(1,4);
         GuideText.text = stop_number+ "번에서 멈춰!!";
         init_rotate();
@@ -62,23 +66,23 @@ public class MiniGame03Script : MonoBehaviour
             {
             if(stop_number == 1 &&temp>=270 && temp<=360 )
             {
-                GuideText.text = "성공!!!";
+                GuideText.text = "성공!!!";PlayerPrefs.SetInt("succ_or_fail" , 1); succ.Play();
             }
             else if (stop_number == 2 &&temp>=0 && temp<=90)
             {
-                GuideText.text = "성공!!!";
+                GuideText.text = "성공!!!";PlayerPrefs.SetInt("succ_or_fail" , 1); succ.Play();
             }
             else if (stop_number == 3 &&temp>=181 && temp<=269)
             {
-                GuideText.text = "성공!!!";
+                GuideText.text = "성공!!!";PlayerPrefs.SetInt("succ_or_fail" , 1); succ.Play();
             }
             else if (stop_number == 4 &&temp>=91 && temp<=180)
             {
-                GuideText.text = "성공!!!";
+                GuideText.text = "성공!!!";PlayerPrefs.SetInt("succ_or_fail" , 1); succ.Play();
             }
             }
             else
-                GuideText.text = "실패...";
+                {GuideText.text = "실패...";PlayerPrefs.SetInt("succ_or_fail" , 0); fail.Play();}
             SceneManager.LoadScene("MiniGameScene");
         }
         else if(Time.time>nextTime && iter >0)
@@ -91,7 +95,7 @@ public class MiniGame03Script : MonoBehaviour
         {
             if(Input.GetMouseButtonDown(0))
             {
-                speed += 0.5f;
+                speed += 0.8f;
                 if(speed >= 0)
                     {stop_rotate = true; temp = Get_Euler();}
             }

@@ -16,7 +16,10 @@ public class MiniGame02Manager : MonoBehaviour
     private float TimeLeft  =1.0f;
     private int iter = 6;
     private int pushed_button = 0;
+    public AudioSource succ;
+    public AudioSource fail;
 
+    public AudioSource butt_sound;
     private int pushed = 0;
     public MiniGameDirctor mg;
     void Start()
@@ -27,7 +30,7 @@ public class MiniGame02Manager : MonoBehaviour
         renderer_bomb = manbo_bomb.GetComponent<SpriteRenderer>();
         renderer_button = manbo_button.GetComponent<SpriteRenderer>();
         renderer_bomb.sprite = Resources.Load<Sprite>("Graphic/MiniGame/" + name);
-        pushed_button = Random.Range(8,15);
+        pushed_button = Random.Range(15,28);
         GuideText.text =  pushed_button+"번 누르시오!!!";
         //Debug.Log("Hi");
     }
@@ -43,9 +46,9 @@ public class MiniGame02Manager : MonoBehaviour
         if (iter == 0)
         {
             if(pushed == pushed_button)
-                {/*mg.set_succ_or_fail(true);*/ GuideText.text = "성공!!!";}
+                {/*mg.set_succ_or_fail(true);*/PlayerPrefs.SetInt("succ_or_fail" , 1); GuideText.text = "성공!!!"; succ.Play();}
             else 
-                {/*mg.set_succ_or_fail(false);*/ GuideText.text = "실패...";}
+                {/*mg.set_succ_or_fail(false);*/ PlayerPrefs.SetInt("succ_or_fail" , 0);GuideText.text = "실패..."; fail.Play();}
             SceneManager.LoadScene("MiniGameScene");
         }
         else if(Time.time>nextTime && iter >0)
@@ -64,6 +67,7 @@ public class MiniGame02Manager : MonoBehaviour
             if(Input.GetMouseButtonUp(0))
             {
                 renderer_button.sprite =  Resources.Load<Sprite>("Graphic/MiniGame/" + "ManBogoChi_mini_button_0");
+                butt_sound.Play();
             }
             if(Input.GetKey(KeyCode.Escape))
             {
