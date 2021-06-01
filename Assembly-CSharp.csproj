@@ -39,6 +39,7 @@
      <Compile Include="Assets\Inventory.cs" />
      <Compile Include="Assets\TestEvolReset.cs" />
      <Compile Include="Assets\Scenes\Scripts\TouchtoStart.cs" />
+     <Compile Include="Assets\Scenes\Scripts\MiniGame02Manager.cs" />
      <Compile Include="Assets\Scenes\Scripts\Main_Scen_Behavior.cs" />
      <Compile Include="Assets\Scenes\Scripts\MiniGameDirctor.cs" />
      <Compile Include="Assets\ItemBuffer.cs" />
@@ -67,7 +68,7 @@
      <Compile Include="Assets\UseItem.cs" />
      <Compile Include="Assets\Pedometer\Plugins\Managed\IPedometer.cs" />
      <Compile Include="Assets\Pedometer\Plugins\Managed\Platforms\PedometerBridge.cs" />
-     <Compile Include="Assets\Scenes\Scripts\MiniGame02Manager.cs" />
+     <Compile Include="Assets\Scenes\Scripts\MiniGame03Script.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

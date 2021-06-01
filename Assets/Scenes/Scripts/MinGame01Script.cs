@@ -23,8 +23,13 @@ public class MinGame01Script : MonoBehaviour
     private List<Vector2> poslist = new List<Vector2>();
     private List<Object> objlist = new List<Object>();
     public Text GuideText;
+
+    private int count= 1;
     void CreatePositions()
     {
+
+        int flag =0;
+
         float randomX = Random.Range(-1.8f,1.8f);
         float randomY = Random.Range(-3.0f,3.5f);
         Vector2 randomPos = new Vector2(randomX,randomY);
@@ -45,10 +50,12 @@ public class MinGame01Script : MonoBehaviour
 
     void Start()
     {
-        length = Random.Range(10,15);
+        length = Random.Range(5,10);
         for (int i=0;i<length;i++)
         {
+            
             CreatePositions();        
+            count++;
         }
         name = "ManBogoChi_mini_bomb_5";
         this.manbo_bomb = GameObject.Find("Manbo_bomb");

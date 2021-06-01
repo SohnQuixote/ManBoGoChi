@@ -41,11 +41,11 @@ public class MiniGameDirctor : MonoBehaviour
             }
             else if(rand == 3)
             {
-            SceneManager.LoadScene("MiniGameSub_01");
+            SceneManager.LoadScene("MiniGameSub_03");
             }
             else if(rand == 4)
             {
-            SceneManager.LoadScene("MiniGameSub_02");
+            SceneManager.LoadScene("MiniGameSub_03");
             }
         }
         else if(Time.time>nextTime)
