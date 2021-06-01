@@ -8,4 +8,5 @@ public class GoToMiniGameScene : MonoBehaviour
     {
         SceneManager.LoadScene("MiniGameScene");
     }
+    
 }

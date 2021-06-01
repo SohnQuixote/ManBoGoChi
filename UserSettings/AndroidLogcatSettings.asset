@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "RF8MB09KFRK",
     "m_SelectedPackage": {
-        "deviceId": "RF8MB09KFRK",
-        "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 5021,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,91 +11,67 @@
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 21511,
+            "processId": 12350,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 22779,
+            "processId": 12866,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 23315,
+            "processId": 26545,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 25142,
+            "processId": 31077,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 25627,
+            "processId": 1311,
             "exited": true
         },
         {
             "deviceId": "RF8MB09KFRK",
-            "name": "com.sec.android.app.myfiles",
-            "processId": 26137,
+            "name": "com.sec.android.app.launcher",
+            "processId": 8407,
             "exited": false
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 26985,
+            "processId": 2401,
             "exited": false
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 27295,
+            "processId": 2857,
             "exited": false
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 29708,
+            "processId": 3225,
             "exited": false
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 334,
+            "processId": 3514,
             "exited": false
         },
         {
             "deviceId": "RF8MB09KFRK",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 689,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 2103,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 31880,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 341,
-            "exited": false
-        },
-        {
-            "deviceId": "RF8MB09KFRK",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 5021,
+            "processId": 4536,
             "exited": false
         }
     ],
