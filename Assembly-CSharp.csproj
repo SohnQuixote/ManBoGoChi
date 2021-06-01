@@ -67,6 +67,7 @@
      <Compile Include="Assets\UseItem.cs" />
      <Compile Include="Assets\Pedometer\Plugins\Managed\IPedometer.cs" />
      <Compile Include="Assets\Pedometer\Plugins\Managed\Platforms\PedometerBridge.cs" />
+     <Compile Include="Assets\Scenes\Scripts\MiniGame02Manager.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

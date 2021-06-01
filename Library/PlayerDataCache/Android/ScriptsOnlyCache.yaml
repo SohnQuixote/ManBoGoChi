@@ -14,6 +14,7 @@ ScriptsOnlyBuild:
     - ItemIndex
     - Main_Scen_Behavior
     - MinGame01Script
+    - MiniGame02Manager
     - MiniGameDirctor
     - PedometerU.Tests.GameStartSceneScript
     - PopupStatus
@@ -344,8 +345,20 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 2288}
+    - Class: 114
+      Script: {instanceID: 2738}
+    - Class: 114
+      Script: {instanceID: 2922}
+    - Class: 114
+      Script: {instanceID: 3142}
+    - Class: 114
+      Script: {instanceID: 3406}
+    - Class: 114
       Script: {instanceID: 3574}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -354,6 +367,59 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/MiniGameSub_02.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2288}
+    - Class: 114
+      Script: {instanceID: 2738}
+    - Class: 114
+      Script: {instanceID: 2922}
+    - Class: 114
+      Script: {instanceID: 3142}
+    - Class: 114
+      Script: {instanceID: 3406}
+    - Class: 114
+      Script: {instanceID: 24746}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/StoreScene.unity:
     - Class: 1
@@ -411,7 +477,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5914}
     - Class: 114
-      Script: {instanceID: 25350}
+      Script: {instanceID: 23566}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -581,7 +647,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: c1b7936fa2ce1422d50654c8ba2b0ec4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MiniGameDirctor
@@ -827,7 +893,7 @@ ScriptsOnlyBuild:
     className: SpriteShapeController
   - hash:
       serializedVersion: 2
-      Hash: 1cb8195b27e939ddcdba661908b409f6
+      Hash: 91d5944f8635c037f4cc9846d459bb95
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MinGame01Script
@@ -1269,6 +1335,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 50dbf7dd53377a979d6dc5628c15bdc7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MiniGame02Manager
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main_Scene.unity
@@ -1277,4 +1349,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/InventoryScene.unity
   - Assets/Scenes/MiniGameScene.unity
   - Assets/Scenes/MiniGameSub_01.unity
+  - Assets/Scenes/MiniGameSub_02.unity
   playerPath: C:/Users/ssmin/Desktop/2021-1/Project/ManBoGoChi/test.apk

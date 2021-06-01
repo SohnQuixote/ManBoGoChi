@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 public class MinGame01Script : MonoBehaviour
 {
     public SpriteRenderer renderer_bomb;
@@ -16,9 +17,12 @@ public class MinGame01Script : MonoBehaviour
     private int iter = 6;
 
     private int length;
+
+    private int catched = 0;
     //private var insect_prefab;
     private List<Vector2> poslist = new List<Vector2>();
     private List<Object> objlist = new List<Object>();
+    public Text GuideText;
     void CreatePositions()
     {
         float randomX = Random.Range(-1.8f,1.8f);
@@ -41,7 +45,7 @@ public class MinGame01Script : MonoBehaviour
 
     void Start()
     {
-        length = Random.Range(3,7);
+        length = Random.Range(10,15);
         for (int i=0;i<length;i++)
         {
             CreatePositions();        
@@ -65,6 +69,10 @@ public class MinGame01Script : MonoBehaviour
         if (iter == 0)
         {
             SceneManager.LoadScene("MiniGameScene");
+            if(catched == length)
+                {/*mg.set_succ_or_fail(true);*/ GuideText.text = "성공!!!";}
+            else 
+                {/*mg.set_succ_or_fail(false);*/ GuideText.text = "실패...";}            
         }
         else if(Time.time>nextTime && iter >0)
         {
@@ -93,6 +101,7 @@ public class MinGame01Script : MonoBehaviour
                 {
                     Destroy(objlist[index]);
                     Instantiate(Manbo_insect_killed , poslist[index], Quaternion.identity);
+                    catched++;
                 }
             }
             if(Input.GetKey(KeyCode.Escape))
