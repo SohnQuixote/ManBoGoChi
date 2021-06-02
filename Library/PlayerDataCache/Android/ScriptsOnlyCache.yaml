@@ -121,25 +121,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3284}
+      Script: {instanceID: 3286}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3426}
+      Script: {instanceID: 3428}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 4318}
+      Script: {instanceID: 4320}
     - Class: 114
-      Script: {instanceID: 4338}
+      Script: {instanceID: 4340}
     - Class: 114
-      Script: {instanceID: 4614}
+      Script: {instanceID: 4616}
     - Class: 114
-      Script: {instanceID: 5198}
+      Script: {instanceID: 5200}
     - Class: 114
-      Script: {instanceID: 5370}
+      Script: {instanceID: 5372}
     - Class: 114
-      Script: {instanceID: 5918}
+      Script: {instanceID: 5920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -198,21 +198,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3418}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 4232}
+      Script: {instanceID: 4234}
     - Class: 114
-      Script: {instanceID: 4630}
+      Script: {instanceID: 4632}
     - Class: 114
-      Script: {instanceID: 4892}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 5566}
+      Script: {instanceID: 5568}
     - Class: 114
-      Script: {instanceID: 5918}
+      Script: {instanceID: 5920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -267,13 +267,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3442}
+      Script: {instanceID: 3444}
     - Class: 114
-      Script: {instanceID: 5006}
+      Script: {instanceID: 5008}
     - Class: 114
-      Script: {instanceID: 5406}
+      Script: {instanceID: 5408}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -318,7 +318,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -326,6 +326,10 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -363,9 +367,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3576}
+      Script: {instanceID: 3578}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -416,7 +420,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -465,9 +469,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 4442}
+      Script: {instanceID: 4444}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -516,9 +520,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3156}
     - Class: 114
-      Script: {instanceID: 18306}
+      Script: {instanceID: 3410}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -577,23 +581,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3408}
+      Script: {instanceID: 3410}
     - Class: 114
-      Script: {instanceID: 3418}
+      Script: {instanceID: 3420}
     - Class: 114
-      Script: {instanceID: 3500}
+      Script: {instanceID: 3502}
     - Class: 114
-      Script: {instanceID: 3538}
+      Script: {instanceID: 3540}
     - Class: 114
-      Script: {instanceID: 4232}
+      Script: {instanceID: 4234}
     - Class: 114
-      Script: {instanceID: 4630}
+      Script: {instanceID: 4632}
     - Class: 114
-      Script: {instanceID: 4892}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 5918}
+      Script: {instanceID: 5920}
     - Class: 114
-      Script: {instanceID: 25578}
+      Script: {instanceID: 23558}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -769,7 +773,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 7a285556936c34a9ce26661907f7c913
+      Hash: 330d4354fc4ff15d49930bd0455c1e41
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MiniGameDirctor
@@ -905,6 +909,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 4929854ff674d0a33890ede7b4406f44
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MiniGame04Script
   - hash:
       serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
@@ -1463,12 +1473,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
-  - hash:
-      serializedVersion: 2
-      Hash: 4929854ff674d0a33890ede7b4406f44
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MiniGame04Script
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main_Scene.unity

@@ -37,7 +37,7 @@ public class MiniGame04Script : MonoBehaviour
     void Start()
     {
         curdate = Random.Range(15,32);
-        wrongdate = Random.Range(curdate-10, curdate -5);
+        wrongdate = Random.Range(curdate-10, curdate +1);
         GuideText.text = "오늘은 " + curdate + "일!";
         DateText.text = wrongdate.ToString();
         name = "ManBogoChi_mini_bomb_5";
@@ -46,6 +46,11 @@ public class MiniGame04Script : MonoBehaviour
         renderer_calender = manbo_calender.GetComponent<SpriteRenderer>();
         renderer_bomb = manbo_bomb.GetComponent<SpriteRenderer>();
         renderer_bomb.sprite = Resources.Load<Sprite>("Graphic/MiniGame/" + name);
+        int score = PlayerPrefs.GetInt("score");
+        if(score >=5)
+        {
+            TimeLeft -= 0.2f *(score/5);
+        }
         //Debug.Log("Hi");
     }
 

@@ -24,6 +24,8 @@ public class MinGame01Script : MonoBehaviour
     private int length;
 
     private int catched = 0;
+
+
     //private var insect_prefab;
     private List<Vector2> poslist = new List<Vector2>();
     private List<Object> objlist = new List<Object>();
@@ -55,6 +57,7 @@ public class MinGame01Script : MonoBehaviour
 
     void Start()
     {
+        
         length = Random.Range(5,10);
         for (int i=0;i<length;i++)
         {
@@ -66,6 +69,11 @@ public class MinGame01Script : MonoBehaviour
         this.manbo_bomb = GameObject.Find("Manbo_bomb");
         renderer_bomb = manbo_bomb.GetComponent<SpriteRenderer>();
         renderer_bomb.sprite = Resources.Load<Sprite>("Graphic/MiniGame/" + name);
+        int score = PlayerPrefs.GetInt("score");
+        if(score >=5)
+        {
+            TimeLeft -= 0.1f *(score/5);
+        }
         //Debug.Log("Hi");
     }
 

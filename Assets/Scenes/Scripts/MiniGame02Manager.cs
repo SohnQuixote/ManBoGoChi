@@ -31,7 +31,19 @@ public class MiniGame02Manager : MonoBehaviour
         renderer_button = manbo_button.GetComponent<SpriteRenderer>();
         renderer_bomb.sprite = Resources.Load<Sprite>("Graphic/MiniGame/" + name);
         pushed_button = Random.Range(15,28);
+        if(pushed_button <17)
+        {
+            GuideText.text = "누르지마!!!";
+        }
+        else
+        {
         GuideText.text =  pushed_button+"번 누르시오!!!";
+        }
+        int score = PlayerPrefs.GetInt("score");
+        if(score >=5)
+        {
+            TimeLeft -= 0.1f *(score/5);
+        }
         //Debug.Log("Hi");
     }
 
@@ -45,7 +57,16 @@ public class MiniGame02Manager : MonoBehaviour
         //그냥 playerPrefs 사용
         if (iter == 0)
         {
-            if(pushed == pushed_button)
+            if(pushed_button <17)
+            {
+                if(pushed== 0)
+                {
+                    PlayerPrefs.SetInt("succ_or_fail" , 1); GuideText.text = "성공!!!"; succ.Play();
+                }
+                else 
+                {/*mg.set_succ_or_fail(false);*/ PlayerPrefs.SetInt("succ_or_fail" , 0);GuideText.text = "실패..."; fail.Play();}
+            }
+            else if(pushed_button>= 17 && pushed == pushed_button)
                 {/*mg.set_succ_or_fail(true);*/PlayerPrefs.SetInt("succ_or_fail" , 1); GuideText.text = "성공!!!"; succ.Play();}
             else 
                 {/*mg.set_succ_or_fail(false);*/ PlayerPrefs.SetInt("succ_or_fail" , 0);GuideText.text = "실패..."; fail.Play();}
@@ -62,12 +83,13 @@ public class MiniGame02Manager : MonoBehaviour
             {
                 pushed++;
                 GuideText.text = pushed +"!!!";
+                butt_sound.Play();
                 renderer_button.sprite =  Resources.Load<Sprite>("Graphic/MiniGame/" + "ManBogoChi_mini_button_1");
             }
             if(Input.GetMouseButtonUp(0))
             {
                 renderer_button.sprite =  Resources.Load<Sprite>("Graphic/MiniGame/" + "ManBogoChi_mini_button_0");
-                butt_sound.Play();
+                
             }
             if(Input.GetKey(KeyCode.Escape))
             {

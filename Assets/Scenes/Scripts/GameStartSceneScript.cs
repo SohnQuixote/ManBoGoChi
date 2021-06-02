@@ -64,6 +64,7 @@ public class GameStartSceneScript : MonoBehaviour
         PlayerPrefs.SetInt("heart" , 4);
         PlayerPrefs.SetInt("GameEndFlag" ,0);
         PlayerPrefs.SetInt("succ_or_fail" , 1);
+        PlayerPrefs.SetInt("first_mini" , 1);
         this.money = GameObject.Find("Money");
         this.manbo_money = GameObject.Find("ManboGochi_menu_money");
         //stepcount = IntegerContorl();

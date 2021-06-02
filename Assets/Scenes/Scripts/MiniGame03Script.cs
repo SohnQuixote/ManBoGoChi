@@ -34,6 +34,11 @@ public class MiniGame03Script : MonoBehaviour
         this.manbo_bomb = GameObject.Find("Manbo_bomb");
         renderer_bomb = manbo_bomb.GetComponent<SpriteRenderer>();
         renderer_bomb.sprite = Resources.Load<Sprite>("Graphic/MiniGame/" + name);
+        int score = PlayerPrefs.GetInt("score");
+        if(score >=5)
+        {
+            TimeLeft -= 0.1f *(score/5);
+        }
         //Debug.Log("Hi");
     }
     public int Get_Euler()
@@ -80,6 +85,8 @@ public class MiniGame03Script : MonoBehaviour
             {
                 GuideText.text = "성공!!!";PlayerPrefs.SetInt("succ_or_fail" , 1); succ.Play();
             }
+            else{GuideText.text = "실패...";PlayerPrefs.SetInt("succ_or_fail" , 0); fail.Play();}
+            
             }
             else
                 {GuideText.text = "실패...";PlayerPrefs.SetInt("succ_or_fail" , 0); fail.Play();}
