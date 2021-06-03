@@ -271,7 +271,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 307755788}
   manbo_egg: {fileID: 1610332460}
+  manbo_background: {fileID: 2100746397}
   renderer: {fileID: 0}
+  anim: {fileID: 2100746398}
+  back_renderer: {fileID: 0}
   image1: {fileID: 21300000, guid: 24576d058c5db644697490e1d44c587e, type: 3}
   image2: {fileID: 21300000, guid: 31d6274b116808f439f93a86c8735821, type: 3}
   image3: {fileID: 21300000, guid: 892a1c6415277664887c33ea01fb619c, type: 3}
@@ -423,7 +426,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 307755788}
   manbo_egg: {fileID: 0}
+  manbo_background: {fileID: 0}
   renderer: {fileID: 0}
+  anim: {fileID: 0}
+  back_renderer: {fileID: 0}
   image1: {fileID: 0}
   image2: {fileID: 0}
   image3: {fileID: 0}
@@ -3729,7 +3735,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 307755788}
   manbo_egg: {fileID: 0}
+  manbo_background: {fileID: 0}
   renderer: {fileID: 0}
+  anim: {fileID: 0}
+  back_renderer: {fileID: 0}
   image1: {fileID: 0}
   image2: {fileID: 0}
   image3: {fileID: 0}
@@ -4141,6 +4150,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   status: {fileID: 1345342337}
   stepText: {fileID: 0}
+  anim: {fileID: 2100746398}
+  manbo_background: {fileID: 2100746397}
+  back_renderer: {fileID: 0}
 --- !u!4 &1895443572
 Transform:
   m_ObjectHideFlags: 0

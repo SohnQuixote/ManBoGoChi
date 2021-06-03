@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - Buy
     - ChangeScene
     - Curtivate
+    - EndingSceneScript
     - GoToMiniGameScene
     - Inventory
     - Item
@@ -73,6 +74,57 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Scenes/EndingScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 2290}
+    - Class: 114
+      Script: {instanceID: 2740}
+    - Class: 114
+      Script: {instanceID: 2924}
+    - Class: 114
+      Script: {instanceID: 3144}
+    - Class: 114
+      Script: {instanceID: 3410}
+    - Class: 114
+      Script: {instanceID: 29088}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/GameStartScene.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -597,7 +649,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5920}
     - Class: 114
-      Script: {instanceID: 23558}
+      Script: {instanceID: 32264}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -965,7 +1017,7 @@ ScriptsOnlyBuild:
     className: Scrollbar
   - hash:
       serializedVersion: 2
-      Hash: 0af35b60067f5d169b452a0291032a7c
+      Hash: ec6f9a3bdc6784d4c7f1de4420dbc10d
     assemblyName: Assembly-CSharp.dll
     namespaceName: PedometerU.Tests
     className: GameStartSceneScript
@@ -1157,7 +1209,7 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
-      Hash: a8f20ff744ef9d4a5412cc7a5bd37666
+      Hash: e5992e99ec60d7ec5622917406dbfb32
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Curtivate
@@ -1473,6 +1525,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 012f8205c344ed92bae4d76f96fe9aab
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EndingSceneScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Main_Scene.unity
@@ -1484,4 +1542,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MiniGameSub_02.unity
   - Assets/Scenes/MiniGameSub_03.unity
   - Assets/Scenes/MiniGameSub_04.unity
+  - Assets/Scenes/EndingScene.unity
   playerPath: C:/Users/ssmin/Desktop/2021-1/Project/ManBoGoChi/test.apk

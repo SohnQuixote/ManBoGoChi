@@ -16,7 +16,12 @@ public class GameStartSceneScript : MonoBehaviour
     GameObject manbo_egg;
     GameObject target;
     public Text stepText;
+    public Animator anim;
     private Pedometer pedometer;
+
+    public GameObject manbo_background;
+
+    public SpriteRenderer back_renderer;
     //const string pluginName = "com.example.mypedometer";
     string step_text;
     
@@ -66,6 +71,7 @@ public class GameStartSceneScript : MonoBehaviour
         PlayerPrefs.SetInt("succ_or_fail" , 1);
         PlayerPrefs.SetInt("first_mini" , 1);
         this.money = GameObject.Find("Money");
+        back_renderer = manbo_background.GetComponent<SpriteRenderer>();
         this.manbo_money = GameObject.Find("ManboGochi_menu_money");
         //stepcount = IntegerContorl();
         //this.home_menu = GameObject.Find("ManboGochi_menu_home_01");
@@ -74,6 +80,16 @@ public class GameStartSceneScript : MonoBehaviour
         this.manbo_egg = GameObject.Find("ManboGochi_egg_01");
         renderer = manbo_egg.GetComponent<SpriteRenderer>();
         renderer.sprite = Resources.Load<Sprite>("Graphic/Character/" + shape);
+        if(shape.Contains("kid"))
+        {
+            anim.enabled = false;
+            back_renderer.sprite = Resources.Load<Sprite>("Graphic/BackGround/MANBO_BACKGROUND_03");
+        }
+        else if(shape.Contains("mid"))
+        {
+            anim.enabled = false;
+            back_renderer.sprite = Resources.Load<Sprite>("Graphic/BackGround/MANBO_BACKGROUND_04");
+        }
         for(int i = 0; i < status.childCount; i++)
         {
             slider = status.GetChild(i).GetComponent<Slider>();
