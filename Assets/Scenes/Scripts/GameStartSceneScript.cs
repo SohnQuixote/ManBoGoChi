@@ -58,8 +58,9 @@ public class GameStartSceneScript : MonoBehaviour
     private bool last_state;
     private string shape;
     private Slider slider;
-    private string[] statusName = new string[3] { "hunger", "clean", "exp" };
-    private int value;
+    private string[] statusName = new string[3] { "hunger", "feeling", "exp" };
+    private float value;
+    private int step;
     //public StepCounter counter;
     //private IntegerControl stepcount;
     void Start()
@@ -93,24 +94,30 @@ public class GameStartSceneScript : MonoBehaviour
         for(int i = 0; i < status.childCount; i++)
         {
             slider = status.GetChild(i).GetComponent<Slider>();
-            value = PlayerPrefs.GetInt(statusName[i], 0);
+            value = PlayerPrefs.GetFloat(statusName[i], 0);
+            if(i == 2)
+                slider.maxValue = PlayerPrefs.GetFloat("maxexp", 500);
             slider.value = value;
         }
 
         click_count =0;
         last_state = false;
-        this.money.GetComponent<Text>().text = a + "원";
+        this.money.GetComponent<Text>().text = PlayerPrefs.GetInt("WP", 0).ToString() + "WP";
         pedometer = new Pedometer(OnStep);
-        OnStep(0,0);
         //counter = StepCounter();
         //InputSystem.EnableDevice(counter);
         //stepcount = counter.stepCounter;
     }
     private void OnStep(int steps,double distance)
     {
-        this.money.GetComponent<Text>().text = steps.ToString() + "WP";
-        a =steps;
-    }
+        step = PlayerPrefs.GetInt("WP", 0);
+        step += 1;
+        this.money.GetComponent<Text>().text = step.ToString() + "WP";
+        PlayerPrefs.SetInt("WP", step);
+
+        //this.money.GetComponent<Text>().text = PlayerPrefs.GetInt("WP", 0).ToString() + "WP";
+        //a = PlayerPrefs.GetInt("WP", 0);
+        }
     private void OnDisable() {
         pedometer.Dispose();
         pedometer = null;

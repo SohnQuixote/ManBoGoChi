@@ -13,4 +13,8 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("InventoryScene");
     }
+    public void ToFirst()
+    {
+        SceneManager.LoadScene("GameStartScene");
+    }
 }

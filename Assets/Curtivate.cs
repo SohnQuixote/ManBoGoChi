@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 public class Curtivate : MonoBehaviour
 {
-    public Slider slider;
     public GameObject manbo_egg;
     public GameObject manbo_background;
     public SpriteRenderer renderer;
@@ -14,37 +13,40 @@ public class Curtivate : MonoBehaviour
     public Sprite image1;
     public Sprite image2;
     public Sprite image3;
+    public Transform status;
 
     private int species;
     private string shape;
-    private int exp;
-
+    private float exp;
+    private string[] statusName = new string[3] { "hunger", "feeling", "exp" };
+    private Slider slider;
     public void OnClickEXPPlus()
     {
-        exp = PlayerPrefs.GetInt("exp", 0);
+        exp = PlayerPrefs.GetFloat("exp", 0);
         if (exp < 100)
         {
             exp += 1;
             slider.value = exp;
-            PlayerPrefs.SetInt("exp", exp);
+            PlayerPrefs.SetFloat("exp", exp);
         }
     }
 
     public void OnClickEXPMinus()
     {
-        exp = PlayerPrefs.GetInt("exp", 0);
+        exp = PlayerPrefs.GetFloat("exp", 0);
         if (exp > 0)
         {
             exp -= 1;
             slider.value = exp;
-            PlayerPrefs.SetInt("exp", exp);
+            PlayerPrefs.SetFloat("exp", exp);
         }
     }
 
     public void OnClickEvol()
     {
-        exp = PlayerPrefs.GetInt("exp", 0);
-        if (exp == 100)
+        exp = PlayerPrefs.GetFloat("exp", 0);
+        slider = status.GetChild(2).GetComponent<Slider>();
+        if (exp >= slider.maxValue)
         {
             renderer = manbo_egg.GetComponent<SpriteRenderer>();
             back_renderer = manbo_background.GetComponent<SpriteRenderer>();
@@ -59,6 +61,8 @@ public class Curtivate : MonoBehaviour
                 back_renderer.sprite = Resources.Load<Sprite>("Graphic/BackGround/MANBO_BACKGROUND_03");
                 
                 PlayerPrefs.SetString("shape", shape);
+
+                slider.maxValue = 3000;
             }
             else if(shape.Contains("kid"))
             {
@@ -68,14 +72,27 @@ public class Curtivate : MonoBehaviour
                 back_renderer.sprite = Resources.Load<Sprite>("Graphic/BackGround/MANBO_BACKGROUND_04");
                 
                 PlayerPrefs.SetString("shape", shape);
+
+                slider.maxValue = 5000;
             }
             else if (shape.Contains("mid"))
             {
+                shape = "ManBoGochi_egg_01";
+                renderer.sprite = Resources.Load<Sprite>("Graphic/Character/" + shape);
 
+                slider.maxValue = 1000;
                 SceneManager.LoadScene("EndingScene");
             }
-            PlayerPrefs.SetInt("exp", 0);
-            slider.value = 0;
+            PlayerPrefs.SetFloat("hunger", 0);
+            PlayerPrefs.SetFloat("feeling", 0);
+            PlayerPrefs.SetFloat("exp", 0);
+            PlayerPrefs.SetFloat("maxexp", slider.maxValue);
+
+            for (int i = 0; i < status.childCount; i++)
+            {
+                slider = status.GetChild(i).GetComponent<Slider>();
+                slider.value = PlayerPrefs.GetFloat(statusName[i], 0);
+            }
         }
     }
 }

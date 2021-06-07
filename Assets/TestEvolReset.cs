@@ -11,6 +11,6 @@ public class TestEvolReset : MonoBehaviour
 
     public void OnEXPMaxClick()
     {
-        PlayerPrefs.SetInt("exp", 100);
+        PlayerPrefs.SetFloat("exp", 999999);
     }
 }
