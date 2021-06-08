@@ -61,6 +61,7 @@ public class Curtivate : MonoBehaviour
                 back_renderer.sprite = Resources.Load<Sprite>("Graphic/BackGround/MANBO_BACKGROUND_03");
                 
                 PlayerPrefs.SetString("shape", shape);
+                PlayerPrefs.SetInt(shape, 1);
 
                 slider.maxValue = 3000;
             }
@@ -72,6 +73,7 @@ public class Curtivate : MonoBehaviour
                 back_renderer.sprite = Resources.Load<Sprite>("Graphic/BackGround/MANBO_BACKGROUND_04");
                 
                 PlayerPrefs.SetString("shape", shape);
+                PlayerPrefs.SetInt(shape, 1);
 
                 slider.maxValue = 5000;
             }
