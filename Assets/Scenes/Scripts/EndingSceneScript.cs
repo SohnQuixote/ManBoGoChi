@@ -25,10 +25,12 @@ public class EndingSceneScript : MonoBehaviour
         if(species_int == 3)
         {
             ending_renderer.sprite = Resources.Load<Sprite>("Graphic/Character/manbo_ending_3");
+            PlayerPrefs.SetInt("manbo_ending_3", 1);
         }
         else
         {
             ending_renderer.sprite = Resources.Load<Sprite>("Graphic/Character/manbo_ending_" + species +"_"+ random_ending.ToString());
+            PlayerPrefs.SetInt("manbo_ending_" + species + "_" + random_ending.ToString(), 1);
         }
         switch(species_int)
         {

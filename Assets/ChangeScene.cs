@@ -13,8 +13,8 @@ public class ChangeScene : MonoBehaviour
     {
         SceneManager.LoadScene("InventoryScene");
     }
-    public void ToFirst()
+    public void ToEndingWiki()
     {
-        SceneManager.LoadScene("GameStartScene");
+        SceneManager.LoadScene("EndingWikipediaScene");
     }
 }
