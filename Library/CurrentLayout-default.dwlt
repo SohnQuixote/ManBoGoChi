@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 139
+  controlID: 108
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 82
+  controlID: 37
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 83
+  controlID: 38
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,22 +343,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\JDK\Documents\ManBoGoChi
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: 78470000
-    m_LastClickedID: 18296
-    m_ExpandedIDs: 00000000624700006447000066470000684700006a4700006c4700006e47000070470000724700007447000076470000784700007a4700007c4700007e47000080470000824700008447000086470000884700008a4700008c4700008e470000f847000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: fa450000
+    m_LastClickedID: 17914
+    m_ExpandedIDs: 00000000d6450000d8450000da450000dc450000de450000e0450000e2450000e4450000e6450000e8450000ea450000ec450000ee450000f0450000f2450000f4450000f6450000f8450000fa450000fc450000fe45000000460000024600000446000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000624700006447000066470000684700006a4700006c4700006e47000070470000724700007447000076470000784700007a4700007c4700007e47000080470000824700008447000086470000884700008a4700008c4700008e470000
+    m_ExpandedIDs: 00000000d6450000d8450000da450000dc450000de450000e0450000e2450000e4450000e6450000e8450000ea450000ec450000ee450000f0450000f2450000f4450000f6450000f8450000fa450000fc450000fe450000004600000246000004460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -507,9 +507,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: e848ffff7c49ffff204affffe24affff244bffff864fffff4850ffffe851ffffa452ffffda73ffffe873ffffea73ffff3c74ffff4a74ffff4c74ffffa074ffffae74ffffb074ffff5a8affffbc8affff108bffff1e8bffff208bffff5c8cffffd096ffff7298ffff7a99ffff8699ffff629affffa09affffce9affffe09afffffe9affffc09bffff12a5ffff1ca5ffff2aa5ffff7ca5ffffaaa5ffffc6a5ffffc8b9ffffd2b9ffffe6b9ffff6ebaffffe4bbffff4cc7ffffb4c9ffffc0c9ffff42d7ffff96d7ffff24e5ffff94e5ffff62edffff76edfffff8edffff26eefffff0f0ffffb8f7ffffdaf7fffff0f7ffff00f8ffff80f8ffffb0f8ffffc4f8fffff0f9ffff0a470000f04c0000ea4d0000b0500000be500000d650000072510000525200006c520000d4530000465400002a5500003c55000052550000645500008855000098550000fc660000dc670000f66700005e690000b46a0000d06a0000006b0000126b0000366b0000466b00005c7700003c78000056780000be790000de7b00001c7c00002e7c0000447c0000667c00009c9100006c950000929500001c9700002e97000000af00007caf0000a2af0000e2af0000dc1501009224010092250100bc2701009c280100b62801001e2a0100902a0100342c0100342d0100
+      m_SelectedIDs: 94470000
+      m_LastClickedID: 18324
+      m_ExpandedIDs: 90faffff3cfbffff2e4700000e48000028480000a848000090490000024a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 

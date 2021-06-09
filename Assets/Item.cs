@@ -68,7 +68,7 @@ public class Item : MonoBehaviour
         sitem.enabled = true;
         sitem.sprite = image.sprite;
 
-        iexplain.text = curexplain;
+        iexplain.text = gameObject.name + ", " + curexplain;
         icost.text = curcost.ToString();
 
         Buy.interactable = true;
