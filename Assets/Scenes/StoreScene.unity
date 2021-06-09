@@ -6597,84 +6597,112 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items:
-  - name: item1
+  - name: "\uBC30\uD130\uB9AC"
     sprite: {fileID: 21300000, guid: 70ff3dd007ffd9a4faff2bf5901aaf41, type: 3}
-    explain: item1 explain
+    explain: "\uC778\uD050\uBCA0\uC774\uD130\uB97C \uC704\uD574 \uC124\uACC4\uD588\uB358
+      \uBC30\uD130\uB9AC. \uC5B4\uC9F8\uC120\uC9C0 \uC0AC\uC6A9\uD558\uBA74 \uC54C\uC758
+      \uACBD\uD5D8\uCE58\uAC00 \uC0C1\uC2B9\uD55C\uB2E4."
     cost: 100
     index: 0
-  - name: item2
+  - name: "\uC124\uCE58\uD615 \uC778\uD050\uBCA0\uC774\uD130"
     sprite: {fileID: 21300000, guid: fa363b888fa502e49aa62cc47714d97a, type: 3}
-    explain: item2 explain
+    explain: "\uC2E4\uB0B4\uC5D0 \uC124\uCE58\uD574\uB450\uACE0 \uC54C\uC744 \uBD80\uD654\uC2DC\uD0A4\uB294
+      \uC6A9\uB3C4\uB85C \uC124\uACC4\uB41C \uC544\uC774\uD15C. \uD558\uC9C0\uB9CC
+      \uC77C\uD68C\uC6A9\uC73C\uB85C \uACBD\uD5D8\uCE58 \uC0C1\uC2B9\uC5D0 \uAE30\uC5EC\uD558\uB3C4\uB85D
+      \uBCC0\uACBD\uB410\uB2E4."
     cost: 150
     index: 1
-  - name: item3
+  - name: "\uBC30\uB0AD\uD615 \uC778\uD050\uBCA0\uC774\uD130"
     sprite: {fileID: 21300000, guid: 1a0a45b3e50fc5244899ecd06e3f09c0, type: 3}
-    explain: item3 explain
+    explain: "\uAC00\uC9C0\uACE0 \uC774\uB3D9\uD560 \uC218 \uC788\uB294 \uD615\uD0DC\uC758
+      \uC778\uD050\uBCA0\uC774\uD130. \uBCF8\uB798\uC758 \uC124\uACC4\uC640 \uB2E4\uB974\uAC8C
+      \uC77C\uD68C\uC6A9 \uACBD\uD5D8\uCE58 \uC0C1\uC2B9 \uC544\uC774\uD15C\uC73C\uB85C
+      \uBCC0\uACBD\uB410\uB2E4."
     cost: 250
     index: 2
-  - name: item4
+  - name: "\uC774\uC720\uC2DD"
     sprite: {fileID: 21300000, guid: f3095a2a9e21c804eba0b2c3a8caa14a, type: 3}
-    explain: item4 explain
+    explain: "\uC54C\uC5D0\uC11C \uB9C9 \uAE68\uC5B4\uB09C \uC5B4\uB9B0 \uC0DD\uBA85\uCCB4\uB97C
+      \uC704\uD55C \uC74C\uC2DD. \uC0AC\uC6A9\uD558\uBA74 \uBC30\uACE0\uD514\uC744
+      \uC644\uD654\uC2DC\uCF1C\uC900\uB2E4.."
     cost: 400
     index: 3
-  - name: item5
+  - name: "\uC57D"
     sprite: {fileID: 21300000, guid: a908bfaa23e57fe418320cb180ce575a, type: 3}
-    explain: item5 explain
+    explain: "\uC0DD\uBA85\uCCB4\uAC00 \uC544\uD50C \uB54C \uC0AC\uC6A9\uD558\uB3C4\uB85D
+      \uC124\uACC4\uD55C \uC544\uC774\uD15C. \uC9C0\uAE08\uC740 \uAE30\uBD84\uC744
+      \uB098\uC544\uC9C0\uAC8C \uB9CC\uB4DC\uB294 \uC544\uC774\uD15C\uC774 \uB410\uB2E4."
     cost: 700
     index: 4
-  - name: item6
+  - name: "\uB7EC\uBC84\uB355"
     sprite: {fileID: 21300000, guid: 89cec5f1cca63e04ab670f5a8edfeefe, type: 3}
-    explain: item6 explain
+    explain: "\uC8FC\uB85C \uBAA9\uC695\uD560 \uB54C \uC0AC\uC6A9\uD558\uB294 \uACE0\uBB34
+      \uC624\uB9AC \uC7A5\uB09C\uAC10. \uC0AC\uC6A9\uD558\uBA74 \uC0DD\uBA85\uCCB4\uC758
+      \uAE30\uBD84\uC774 \uC88B\uC544\uC9C4\uB2E4."
     cost: 800
     index: 5
-  - name: item7
+  - name: "\uACF0\uC778\uD615"
     sprite: {fileID: 21300000, guid: 4c073905e5c29294eb90488dff9c86f8, type: 3}
-    explain: item7 explain
+    explain: "\uC5B8\uC81C\uB4E0 \uAC00\uC9C0\uACE0 \uB180 \uC218 \uC788\uB294 \uACF0\uBAA8\uC591
+      \uC778\uD615. \uC0AC\uC6A9\uD558\uBA74 \uC0DD\uBA85\uCCB4\uC758 \uAE30\uBD84\uC774
+      \uC88B\uC544\uC9C4\uB2E4."
     cost: 1000
     index: 6
-  - name: item8
+  - name: "\uC544\uAE30 \uCE68\uB300"
     sprite: {fileID: 21300000, guid: fe528a4efa7021243b018c1d6a90609d, type: 3}
-    explain: item8 explain
+    explain: "\uC544\uC9C1 \uC5B4\uB9B0 \uC0DD\uBA85\uCCB4\uAC00 \uB5A8\uC5B4\uC9C0\uC9C0
+      \uC54A\uB3C4\uB85D \uC8FC\uBCC0\uC744 \uB9C9\uC544\uB454 \uCE68\uB300. \uC0AC\uC6A9\uD558\uBA74
+      \uACBD\uD5D8\uCE58\uAC00 \uC0C1\uC2B9\uD55C\uB2E4."
     cost: 500
     index: 7
-  - name: item9
+  - name: "\uAE30\uC800\uADC0"
     sprite: {fileID: 21300000, guid: d43f2218542275c43926c25de51f0d9e, type: 3}
-    explain: item9 explain
+    explain: "\uC544\uC9C1 \uB300\uC18C\uBCC0\uC744 \uAC00\uB9AC\uC9C0 \uBABB\uD558\uB294
+      \uC5B4\uB9B0 \uC0DD\uBA85\uCCB4\uB97C \uC704\uD55C \uAC83. \uC0AC\uC6A9\uD558\uBA74
+      \uACBD\uD5D8\uCE58\uAC00 \uC0C1\uC2B9\uD55C\uB2E4."
     cost: 650
     index: 8
-  - name: item10
+  - name: "\uC720\uBAA8\uCC28"
     sprite: {fileID: 21300000, guid: 03dca9ab4c971f74d93dfffb65b0a493, type: 3}
-    explain: item10 explain
+    explain: "\uC798 \uAC77\uC9C0 \uBABB\uD558\uB294 \uC5B4\uB9B0 \uC0DD\uBA85\uCCB4\uB97C
+      \uC704\uD55C \uAC83. \uC0AC\uC6A9\uD558\uBA74 \uACBD\uD5D8\uCE58\uAC00 \uC0C1\uC2B9\uD55C\uB2E4."
     cost: 900
     index: 9
-  - name: item11
+  - name: "\uD584\uBC84\uAC70"
     sprite: {fileID: 21300000, guid: 55b212cd1f76eec49a6b5c09f52bfbe9, type: 3}
-    explain: item11 explain
+    explain: "\uCCAD\uC18C\uB144\uAE30 \uC0DD\uBA85\uCCB4\uAC00 \uBA39\uB294 \uC74C\uC2DD.
+      \uC0AC\uC6A9\uD558\uBA74 \uBC30\uACE0\uD514 \uC218\uCE58\uB97C \uC644\uD654\uC2DC\uCF1C\uC900\uB2E4."
     cost: 600
     index: 10
-  - name: item12
+  - name: "\uAE30\uD0C0"
     sprite: {fileID: 21300000, guid: 28af8b52ccd0907479fdef3745d38291, type: 3}
-    explain: item12 explain
+    explain: "\uCCAD\uC18C\uB144\uAE30 \uC0DD\uBA85\uCCB4\uAC00 \uC88B\uC544\uD558\uB294 
+      \uC545\uAE30. \uC0AC\uC6A9\uD558\uBA74 \uAE30\uBD84\uC774 \uC88B\uC544\uC9C4\uB2E4."
     cost: 1200
     index: 11
-  - name: item13
+  - name: "\uAC8C\uC784\uAE30"
     sprite: {fileID: 21300000, guid: 5add3fe6d7e98f74f950e01f8d8dcb19, type: 3}
-    explain: item13 explain
+    explain: "\uCCAD\uC18C\uB144\uAE30 \uC0DD\uBA85\uCCB4\uAC00 \uD558\uB294 \uAC8C\uC784\uC758
+      \uAC8C\uC784\uAE30. \uC0AC\uC6A9\uD558\uBA74 \uAE30\uBD84\uC774 \uC88B\uC544\uC9C4\uB2E4."
     cost: 1500
     index: 12
-  - name: item14
+  - name: "\uC2A4\uCF00\uC774\uD2B8\uBCF4\uB4DC"
     sprite: {fileID: 21300000, guid: 01935c0a8a8d76043a6ca08bfd5fe872, type: 3}
-    explain: item14 explain
+    explain: "\uCCAD\uC18C\uB144\uAE30 \uC0DD\uBA85\uCCB4\uAC00 \uCDE8\uBBF8\uB85C
+      \uD0C0\uB294 \uAC831. \uC0AC\uC6A9\uD558\uBA74 \uACBD\uD5D8\uCE58\uAC00 \uC0C1\uC2B9\uD55C\uB2E4."
     cost: 1200
     index: 13
-  - name: item15
+  - name: "\uC790\uC804\uAC70"
     sprite: {fileID: 21300000, guid: f3e10a56031a1ba4980be40f84e33d90, type: 3}
-    explain: item15 explain
+    explain: "\uCCAD\uC18C\uB144\uAE30 \uC0DD\uBA85\uCCB4\uAC00 \uCDE8\uBBF8\uB85C
+      \uD0C0\uB294 \uAC832. \uC0AC\uC6A9\uD558\uBA74 \uACBD\uD5D8\uCE58\uAC00 \uC0C1\uC2B9\uD55C\uB2E4."
     cost: 1400
     index: 14
-  - name: item16
+  - name: "\uCC45"
     sprite: {fileID: 21300000, guid: 869db5e2c0e54fb4996933af3f7a4859, type: 3}
-    explain: item16 explain
+    explain: "\uCCAD\uC18C\uB144\uAE30\uC5D0 \uAF2D \uC77D\uC5B4\uC57C\uD558\uB294
+      \uD544\uB3C5\uC11C\uB4E4. \uC0AC\uC6A9\uD558\uBA74 \uACBD\uD5D8\uCE58\uAC00
+      \uC0C1\uC2B9\uD55C\uB2E4."
     cost: 1700
     index: 15
 --- !u!4 &1915783965

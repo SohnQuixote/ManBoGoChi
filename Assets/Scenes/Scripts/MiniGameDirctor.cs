@@ -126,12 +126,16 @@ public class MiniGameDirctor : MonoBehaviour
                 max_score= score;
             }
             speed_text.text = "최고점수 : " + max_score;
+
         }
         if(Application.platform == RuntimePlatform.Android)
         {   
             
             if(Input.GetKey(KeyCode.Escape))
             {
+                int step = PlayerPrefs.GetInt("WP", 0);
+                step += (score *10);
+                PlayerPrefs.SetInt("WP" , step);
                 SceneManager.LoadScene("GameStartScene");
             }
 

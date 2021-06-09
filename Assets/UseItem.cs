@@ -5,7 +5,7 @@ using UnityEngine;
 public class UseItem : MonoBehaviour
 {
     public Transform SelectedItem;
-    public Transform ItemRoot;          //À¯´ÏÆ¼ ÀÎº¥Åä¸®¾À¿¡ ÀÖ´Â ItemList ¿ÀºêÁ§Æ®¸¦ °¡¸®Å´
+    public Transform ItemRoot;          //ï¿½ï¿½ï¿½ï¿½Æ¼ ï¿½Îºï¿½ï¿½ä¸®ï¿½ï¿½ï¿½ï¿½ ï¿½Ö´ï¿½ ItemList ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Å´
     public GameObject zerofailwin;
     public GameObject successwin;
     public GameObject evolfailwin;
@@ -19,7 +19,7 @@ public class UseItem : MonoBehaviour
     public void OnClickUse()
     {
         var selecteditem = SelectedItem.GetComponent<ItemIndex>();
-        var item = ItemRoot.GetChild(selecteditem.index).GetComponent<Item>();       //ItemList ¿ÀºêÁ§Æ®¿¡¼­ ¼±ÅÃµÈ ¾ÆÀÌÅÛÀ» ¹ÝÈ¯
+        var item = ItemRoot.GetChild(selecteditem.index).GetComponent<Item>();       //ItemList ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ãµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯
         temp = PlayerPrefs.GetInt(item.name, 0);
         cost = int.Parse(item.icost.text);
 
@@ -132,7 +132,7 @@ public class UseItem : MonoBehaviour
         }
         else
         {
-            temp += 5;
+            //temp += 5;
             item.icount.text = temp.ToString();
             PlayerPrefs.SetInt(item.name, temp);
 

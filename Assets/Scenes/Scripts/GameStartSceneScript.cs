@@ -111,7 +111,7 @@ public class GameStartSceneScript : MonoBehaviour
     private void OnStep(int steps,double distance)
     {
         step = PlayerPrefs.GetInt("WP", 0);
-        step += 1;
+        step += 10 ;
         this.money.GetComponent<Text>().text = step.ToString() + "WP";
         PlayerPrefs.SetInt("WP", step);
 
