@@ -96,8 +96,9 @@ public class GameStartSceneScript : MonoBehaviour
             slider = status.GetChild(i).GetComponent<Slider>();
             value = PlayerPrefs.GetFloat(statusName[i], 0);
             if(i == 2)
-                slider.maxValue = PlayerPrefs.GetFloat("maxexp", 500);
+                slider.maxValue = PlayerPrefs.GetFloat("maxexp", 1000);
             slider.value = value;
+            slider.interactable = false;
         }
 
         click_count =0;
