@@ -54,27 +54,27 @@ public class UseItem : MonoBehaviour
                         break;
                     case 4:
                         stat = "feeling";
-                        coe = 0.25f;
+                        coe = 0.1f;
                         break;
                     case 5:
                         stat = "feeling";
-                        coe = 0.3f;
+                        coe = 0.2f;
                         break;
                     case 6:
                         stat = "feeling";
-                        coe = 0.35f;
+                        coe = 0.25f;
                         break;
                     case 7:
                         stat = "exp";
-                        coe = 0.25f;
+                        coe = 0.1f;
                         break;
                     case 8:
                         stat = "exp";
-                        coe = 0.3f;
+                        coe = 0.15f;
                         break;
                     case 9:
                         stat = "exp";
-                        coe = 0.4f;
+                        coe = 0.2f;
                         break;
                     default:
                         stat = "fail";
@@ -91,23 +91,23 @@ public class UseItem : MonoBehaviour
                         break;
                     case 11:
                         stat = "feeling";
-                        coe = 0.4f;
+                        coe = 0.2f;
                         break;
                     case 12:
                         stat = "feeling";
-                        coe = 0.5f;
+                        coe = 0.25f;
                         break;
                     case 13:
                         stat = "exp";
-                        coe = 0.45f;
+                        coe = 0.1f;
                         break;
                     case 14:
                         stat = "exp";
-                        coe = 0.5f;
+                        coe = 0.15f;
                         break;
                     case 15:
                         stat = "exp";
-                        coe = 0.6f;
+                        coe = 0.20f;
                         break;
                     default:
                         stat = "fail";
@@ -132,10 +132,6 @@ public class UseItem : MonoBehaviour
         }
         else
         {
-            //temp += 5;
-            item.icount.text = temp.ToString();
-            PlayerPrefs.SetInt(item.name, temp);
-
             zerofailwin.SetActive(true);
         }
     }
